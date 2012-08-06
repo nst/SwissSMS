@@ -1,7 +1,7 @@
 SwissSMS
 ========
 
-`Starting from from https://code.google.com/p/swisssms/ r509.`
+`Starting from https://code.google.com/p/swisssms/ r509.`
 
 SwissSMS is a Mac OS X front-end to SMS operators services.
 
