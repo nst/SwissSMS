@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Send SMS' target in the 'Send SMS' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

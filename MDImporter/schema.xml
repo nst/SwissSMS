@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<schema version="1.0" xmlns="http://www.apple.com/metadata"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:schemaLocation="http://www.apple.com/metadata file:///System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Resources/MetadataSchema.xsd">
+
+    <types>
+        <type name="ch_seriot_swisssms">  <!-- add one <type>...</type> entry for each UTI that you need to define.
+         
+            <!-- 'allattrs' is a whitespace separated list of all of the attributes that this UTI type normally has.
+                 It does not have to be exhaustive. -->
+            <allattrs> 
+				kMDItemContentCreationDate
+				kMDItemRecipients
+				kMDItemTextContent
+            </allattrs>
+            <!-- 'displayattrs' is a whitespace separated list of the attributes that should normally be displayed when previewing files of this UTI type. -->
+            <displayattrs>
+				kMDItemContentCreationDate
+				kMDItemRecipients
+				kMDItemTextContent
+            </displayattrs>
+            
+        </type>
+    </types>
+</schema>
+

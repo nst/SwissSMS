@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'SwissSMSABPlugin' target in the 'SwissSMSABPlugin' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #import <AddressBook/AddressBook.h>
+#endif

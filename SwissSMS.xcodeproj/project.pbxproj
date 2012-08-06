@@ -1,0 +1,3484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0302EDFB0E05FC81005D692E /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0302EDF70E05FC81005D692E /* GetMetadataForFile.m */; };
+		0302EFAB0E062A94005D692E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0302EDF30E05FC81005D692E /* main.m */; };
+		0302EFD00E062C04005D692E /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0302EFCD0E062C04005D692E /* CoreFoundation.framework */; };
+		0302EFD10E062C04005D692E /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0302EFCE0E062C04005D692E /* CoreServices.framework */; };
+		0302EFD20E062C04005D692E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0302EFCF0E062C04005D692E /* Foundation.framework */; };
+		0302F1C80E063232005D692E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0302F1C60E063232005D692E /* InfoPlist.strings */; };
+		0302F2CF0E0636AD005D692E /* SwissSMS.mdimporter in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0302EDAF0E05FB99005D692E /* SwissSMS.mdimporter */; };
+		03085B3F0BEA853E007ADABD /* NSWorkspace_SwissSMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 03085B3E0BEA853E007ADABD /* NSWorkspace_SwissSMS.m */; };
+		03085FBE0BEBB660007ADABD /* InstantMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03085FBD0BEBB65F007ADABD /* InstantMessage.framework */; };
+		030A490B0CB1A6EC00921D19 /* ABPerson_SwissSMS_AIM.m in Sources */ = {isa = PBXBuildFile; fileRef = 030A48F50CB1A64500921D19 /* ABPerson_SwissSMS_AIM.m */; };
+		030A4A6C0CB1B94700921D19 /* Send SMS.action in Resources */ = {isa = PBXBuildFile; fileRef = 8414B2EB0CA3EEA7006703C2 /* Send SMS.action */; };
+		031F23670CE5D20D00E0A88B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		031F237A0CE5D25A00E0A88B /* NetAppel.png in Resources */ = {isa = PBXBuildFile; fileRef = 031F23760CE5D25A00E0A88B /* NetAppel.png */; };
+		031F237B0CE5D25A00E0A88B /* NetAppelINT.m in Sources */ = {isa = PBXBuildFile; fileRef = 031F23780CE5D25A00E0A88B /* NetAppelINT.m */; };
+		0326662B0CD1BAE9008373B6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		032666AC0CD1BD0C008373B6 /* RomandieCH.bundle in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 032665F00CD1BA23008373B6 /* RomandieCH.bundle */; };
+		032667410CD1BF95008373B6 /* OrangeCH.m in Sources */ = {isa = PBXBuildFile; fileRef = 0326673E0CD1BF95008373B6 /* OrangeCH.m */; };
+		032667780CD1FC1A008373B6 /* RomandieCH.m in Sources */ = {isa = PBXBuildFile; fileRef = 032667730CD1FC0D008373B6 /* RomandieCH.m */; };
+		032667E30CD1FD82008373B6 /* Romandie.png in Resources */ = {isa = PBXBuildFile; fileRef = 032667710CD1FC0D008373B6 /* Romandie.png */; };
+		032667E70CD1FD92008373B6 /* Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 0326673C0CD1BF95008373B6 /* Orange.png */; };
+		032DD92A0E56132F00D65944 /* YalloCH.bundle in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 032DD8B30E5611AB00D65944 /* YalloCH.bundle */; };
+		032DDA160E561F6D00D65944 /* YalloCH.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DDA130E561F6D00D65944 /* YalloCH.m */; };
+		032DDA170E561F6D00D65944 /* Yallo.png in Resources */ = {isa = PBXBuildFile; fileRef = 032DDA140E561F6D00D65944 /* Yallo.png */; };
+		032DDA6B0E5623E800D65944 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		032DDA750E56244800D65944 /* SSSender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03577AA50CFB5DB00071370A /* SSSender.framework */; };
+		032DDA760E56245900D65944 /* SSSender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03577AA50CFB5DB00071370A /* SSSender.framework */; };
+		03371F8B0BFCD13700DF24AE /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 03371F8A0BFCD13700DF24AE /* MainMenu.nib */; };
+		0339A1380C026E5E0055A2E6 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0339A1370C026E5E0055A2E6 /* PreferencesController.m */; };
+		0339A1400C026E8B0055A2E6 /* Preferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = 0339A13E0C026E8B0055A2E6 /* Preferences.nib */; };
+		0339A1630C026FBB0055A2E6 /* update.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0339A15F0C026FBB0055A2E6 /* update.tiff */; };
+		0339A1640C026FBB0055A2E6 /* person.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 0339A1600C026FBB0055A2E6 /* person.tiff */; };
+		0339A1650C026FBB0055A2E6 /* general.png in Resources */ = {isa = PBXBuildFile; fileRef = 0339A1610C026FBB0055A2E6 /* general.png */; };
+		0339A1660C026FBC0055A2E6 /* network.png in Resources */ = {isa = PBXBuildFile; fileRef = 0339A1620C026FBB0055A2E6 /* network.png */; };
+		033B14160F802A6E00B1CA65 /* Mjoy.png in Resources */ = {isa = PBXBuildFile; fileRef = 033B14120F802A6E00B1CA65 /* Mjoy.png */; };
+		033B14170F802A6E00B1CA65 /* MjoyINT.m in Sources */ = {isa = PBXBuildFile; fileRef = 033B14140F802A6E00B1CA65 /* MjoyINT.m */; };
+		033B141E0F802C8E00B1CA65 /* NSURL+SMSSender.h in Headers */ = {isa = PBXBuildFile; fileRef = 033B141C0F802C8E00B1CA65 /* NSURL+SMSSender.h */; };
+		033B141F0F802C8E00B1CA65 /* NSURL+SMSSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 033B141D0F802C8E00B1CA65 /* NSURL+SMSSender.m */; };
+		033C0E790CBACAE80007CC8D /* SwissSMS_AppDelegate+TokenField.m in Sources */ = {isa = PBXBuildFile; fileRef = 033C0E770CBACAE70007CC8D /* SwissSMS_AppDelegate+TokenField.m */; };
+		03441AEF0C1CBF1A00B5740F /* AddressBook.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 03441AEE0C1CBF1A00B5740F /* AddressBook.tiff */; };
+		03444B5C0CD2974E00AAF4B9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		03444B6B0CD29B5E00AAF4B9 /* SunriseCH.m in Sources */ = {isa = PBXBuildFile; fileRef = 03444AEB0CD2947A00AAF4B9 /* SunriseCH.m */; };
+		03444B8F0CD29CA100AAF4B9 /* Sunrise.png in Resources */ = {isa = PBXBuildFile; fileRef = 03444AE90CD2947A00AAF4B9 /* Sunrise.png */; };
+		03444B9B0CD29E0F00AAF4B9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		03444BC00CD29F1000AAF4B9 /* SwisscomXtraZoneCH.m in Sources */ = {isa = PBXBuildFile; fileRef = 03444BBD0CD29F1000AAF4B9 /* SwisscomXtraZoneCH.m */; };
+		03444BC70CD29F3900AAF4B9 /* Swisscom Xtra-Zone.png in Resources */ = {isa = PBXBuildFile; fileRef = 03444BBB0CD29F1000AAF4B9 /* Swisscom Xtra-Zone.png */; };
+		0345E2F70CDFE832005C28CE /* KeychainAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 0345E0580CDEA555005C28CE /* KeychainAccess.m */; };
+		034F27230CD29FF60050A78E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		034F27340CD2A03B0050A78E /* CoopMobileCH.m in Sources */ = {isa = PBXBuildFile; fileRef = 034F27310CD2A03B0050A78E /* CoopMobileCH.m */; };
+		034F27390CD2A0580050A78E /* Coop Mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = 034F272F0CD2A03B0050A78E /* Coop Mobile.png */; };
+		034F27500CD2A1360050A78E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		034F276C0CD2A1DB0050A78E /* PostMailCH.m in Sources */ = {isa = PBXBuildFile; fileRef = 034F27690CD2A1DB0050A78E /* PostMailCH.m */; };
+		034F27710CD2A1FB0050A78E /* PostMail.png in Resources */ = {isa = PBXBuildFile; fileRef = 034F27670CD2A1DB0050A78E /* PostMail.png */; };
+		034F27A80CD2A4860050A78E /* SunriseCH.bundle in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 03444B600CD2974E00AAF4B9 /* SunriseCH.bundle */; };
+		034F27B20CD2A4870050A78E /* SwisscomXtraZoneCH.bundle in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 03444B9F0CD29E0F00AAF4B9 /* SwisscomXtraZoneCH.bundle */; };
+		034F27BC0CD2A4880050A78E /* CoopMobileCH.bundle in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 034F27270CD29FF60050A78E /* CoopMobileCH.bundle */; };
+		0356AB0C0BFA3B1200D8E144 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0356AB0B0BFA3B1200D8E144 /* Localizable.strings */; };
+		03577AAB0CFB5E340071370A /* SSSender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03577AA50CFB5DB00071370A /* SSSender.framework */; };
+		03577AD60CFB5E670071370A /* SSSender.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 03577AA50CFB5DB00071370A /* SSSender.framework */; };
+		03577B3E0CFB5F320071370A /* AbstractSender.h in Headers */ = {isa = PBXBuildFile; fileRef = 03ABA0810CCD678E0012FD0E /* AbstractSender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03577B3F0CFB5F320071370A /* AbstractSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 03ABA0820CCD678E0012FD0E /* AbstractSender.m */; };
+		03577B400CFB5F350071370A /* NSString+SMSSender.h in Headers */ = {isa = PBXBuildFile; fileRef = 0353E4B20BE004C10011C40D /* NSString+SMSSender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03577B410CFB5F350071370A /* NSString+SMSSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 0353E4B30BE004C10011C40D /* NSString+SMSSender.m */; };
+		03577B420CFB5F360071370A /* NSDictionary+SMSSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 0353E4B50BE004C10011C40D /* NSDictionary+SMSSender.m */; };
+		03577B430CFB5F360071370A /* NSDictionary+SMSSender.h in Headers */ = {isa = PBXBuildFile; fileRef = 0353E4B40BE004C10011C40D /* NSDictionary+SMSSender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03577B6B0CFB60440071370A /* SSSender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03577AA50CFB5DB00071370A /* SSSender.framework */; };
+		03577B710CFB60660071370A /* SSSender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03577AA50CFB5DB00071370A /* SSSender.framework */; };
+		03577BA60CFB608A0071370A /* SSSender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03577AA50CFB5DB00071370A /* SSSender.framework */; };
+		03577BA90CFB609F0071370A /* SSSender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03577AA50CFB5DB00071370A /* SSSender.framework */; };
+		03577BB40CFB60E40071370A /* SSSender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03577AA50CFB5DB00071370A /* SSSender.framework */; };
+		03577BB60CFB60F70071370A /* SSSender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03577AA50CFB5DB00071370A /* SSSender.framework */; };
+		03577BB80CFB61090071370A /* SSSender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03577AA50CFB5DB00071370A /* SSSender.framework */; };
+		03577BBA0CFB61280071370A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		03577BF10CFB62C50071370A /* SSSender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03577AA50CFB5DB00071370A /* SSSender.framework */; };
+		03577C380CFB63ED0071370A /* SSSender.h in Headers */ = {isa = PBXBuildFile; fileRef = 03577C370CFB63ED0071370A /* SSSender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03577C870CFB66020071370A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		03577DD50CFB6C970071370A /* NetAppelINT.bundle in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 031F236C0CE5D20D00E0A88B /* NetAppelINT.bundle */; };
+		0364750110619F4F002A2AF1 /* SSSender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03577AA50CFB5DB00071370A /* SSSender.framework */; };
+		0364752810619F78002A2AF1 /* ETH.png in Resources */ = {isa = PBXBuildFile; fileRef = 0364752410619F78002A2AF1 /* ETH.png */; };
+		0364752910619F78002A2AF1 /* ETHCH.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364752610619F78002A2AF1 /* ETHCH.m */; };
+		0364757E1061A09C002A2AF1 /* EthCH.bundle in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 036474DE10619F0E002A2AF1 /* EthCH.bundle */; };
+		036F11BD0F8035A1009DABFF /* SSSender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03577AA50CFB5DB00071370A /* SSSender.framework */; };
+		036F11C70F8035C0009DABFF /* NSURL+SMSSender.m in Sources */ = {isa = PBXBuildFile; fileRef = 033B141D0F802C8E00B1CA65 /* NSURL+SMSSender.m */; };
+		0371768115CF1A2A008C9A61 /* STHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0371767F15CF1A2A008C9A61 /* STHTTPRequest.m */; };
+		0371768615CF1D72008C9A61 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768315CF1D72008C9A61 /* Automator.framework */; };
+		0371768715CF1D72008C9A61 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768315CF1D72008C9A61 /* Automator.framework */; };
+		0371768815CF1D72008C9A61 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768315CF1D72008C9A61 /* Automator.framework */; };
+		0371768915CF1D72008C9A61 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768315CF1D72008C9A61 /* Automator.framework */; };
+		0371768A15CF1D72008C9A61 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768315CF1D72008C9A61 /* Automator.framework */; };
+		0371768B15CF1D72008C9A61 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768315CF1D72008C9A61 /* Automator.framework */; };
+		0371768C15CF1D72008C9A61 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768315CF1D72008C9A61 /* Automator.framework */; };
+		0371768D15CF1D72008C9A61 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768315CF1D72008C9A61 /* Automator.framework */; };
+		0371768E15CF1D72008C9A61 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768315CF1D72008C9A61 /* Automator.framework */; };
+		0371768F15CF1D72008C9A61 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768315CF1D72008C9A61 /* Automator.framework */; };
+		0371769015CF1D72008C9A61 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768315CF1D72008C9A61 /* Automator.framework */; };
+		0371769115CF1D72008C9A61 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768315CF1D72008C9A61 /* Automator.framework */; };
+		0371769215CF1D72008C9A61 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768315CF1D72008C9A61 /* Automator.framework */; };
+		0371769315CF1D72008C9A61 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768315CF1D72008C9A61 /* Automator.framework */; };
+		0371769415CF1D72008C9A61 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768315CF1D72008C9A61 /* Automator.framework */; };
+		0371769515CF1D72008C9A61 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768315CF1D72008C9A61 /* Automator.framework */; };
+		0371769615CF1D72008C9A61 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768315CF1D72008C9A61 /* Automator.framework */; };
+		0371769715CF1D72008C9A61 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768315CF1D72008C9A61 /* Automator.framework */; };
+		0371769815CF1D72008C9A61 /* OSAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768415CF1D72008C9A61 /* OSAKit.framework */; };
+		0371769915CF1D72008C9A61 /* OSAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768415CF1D72008C9A61 /* OSAKit.framework */; };
+		0371769A15CF1D72008C9A61 /* OSAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768415CF1D72008C9A61 /* OSAKit.framework */; };
+		0371769B15CF1D72008C9A61 /* OSAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768415CF1D72008C9A61 /* OSAKit.framework */; };
+		0371769C15CF1D72008C9A61 /* OSAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768415CF1D72008C9A61 /* OSAKit.framework */; };
+		0371769D15CF1D72008C9A61 /* OSAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768415CF1D72008C9A61 /* OSAKit.framework */; };
+		0371769E15CF1D72008C9A61 /* OSAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768415CF1D72008C9A61 /* OSAKit.framework */; };
+		0371769F15CF1D72008C9A61 /* OSAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768415CF1D72008C9A61 /* OSAKit.framework */; };
+		037176A015CF1D72008C9A61 /* OSAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768415CF1D72008C9A61 /* OSAKit.framework */; };
+		037176A115CF1D72008C9A61 /* OSAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768415CF1D72008C9A61 /* OSAKit.framework */; };
+		037176A215CF1D72008C9A61 /* OSAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768415CF1D72008C9A61 /* OSAKit.framework */; };
+		037176A315CF1D72008C9A61 /* OSAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768415CF1D72008C9A61 /* OSAKit.framework */; };
+		037176A415CF1D72008C9A61 /* OSAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768415CF1D72008C9A61 /* OSAKit.framework */; };
+		037176A515CF1D72008C9A61 /* OSAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768415CF1D72008C9A61 /* OSAKit.framework */; };
+		037176A615CF1D72008C9A61 /* OSAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768415CF1D72008C9A61 /* OSAKit.framework */; };
+		037176A715CF1D72008C9A61 /* OSAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768415CF1D72008C9A61 /* OSAKit.framework */; };
+		037176A815CF1D72008C9A61 /* OSAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768415CF1D72008C9A61 /* OSAKit.framework */; };
+		037176A915CF1D72008C9A61 /* OSAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768415CF1D72008C9A61 /* OSAKit.framework */; };
+		037176AA15CF1D72008C9A61 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768515CF1D72008C9A61 /* Security.framework */; };
+		037176AB15CF1D72008C9A61 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768515CF1D72008C9A61 /* Security.framework */; };
+		037176AC15CF1D72008C9A61 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768515CF1D72008C9A61 /* Security.framework */; };
+		037176AD15CF1D72008C9A61 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768515CF1D72008C9A61 /* Security.framework */; };
+		037176AE15CF1D72008C9A61 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768515CF1D72008C9A61 /* Security.framework */; };
+		037176AF15CF1D72008C9A61 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768515CF1D72008C9A61 /* Security.framework */; };
+		037176B015CF1D72008C9A61 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768515CF1D72008C9A61 /* Security.framework */; };
+		037176B115CF1D72008C9A61 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768515CF1D72008C9A61 /* Security.framework */; };
+		037176B215CF1D72008C9A61 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768515CF1D72008C9A61 /* Security.framework */; };
+		037176B315CF1D72008C9A61 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768515CF1D72008C9A61 /* Security.framework */; };
+		037176B415CF1D72008C9A61 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768515CF1D72008C9A61 /* Security.framework */; };
+		037176B515CF1D72008C9A61 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768515CF1D72008C9A61 /* Security.framework */; };
+		037176B615CF1D72008C9A61 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768515CF1D72008C9A61 /* Security.framework */; };
+		037176B715CF1D72008C9A61 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768515CF1D72008C9A61 /* Security.framework */; };
+		037176B815CF1D72008C9A61 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768515CF1D72008C9A61 /* Security.framework */; };
+		037176B915CF1D72008C9A61 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768515CF1D72008C9A61 /* Security.framework */; };
+		037176BA15CF1D72008C9A61 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768515CF1D72008C9A61 /* Security.framework */; };
+		037176BB15CF1D72008C9A61 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371768515CF1D72008C9A61 /* Security.framework */; };
+		037176BF15CF248C008C9A61 /* HTMLForm.m in Sources */ = {isa = PBXBuildFile; fileRef = DA03FAF30D0897E500126A2C /* HTMLForm.m */; };
+		03767E0D0CBFC59B003833A1 /* SSRecipient.m in Sources */ = {isa = PBXBuildFile; fileRef = 03767E0B0CBFC59B003833A1 /* SSRecipient.m */; };
+		03871D960F8053B100F24DC9 /* MjoyINT.bundle in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 03871D950F8053B100F24DC9 /* MjoyINT.bundle */; };
+		03A9733C0BE15438005912FA /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 03A9733B0BE15438005912FA /* Credits.html */; };
+		03AA5FD20D638DD7003A9758 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		03AA5FD30D638DD7003A9758 /* SSSender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03577AA50CFB5DB00071370A /* SSSender.framework */; };
+		03AA62790D63B9A1003A9758 /* CitycableCH.bundle in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 03AA5FD70D638DD7003A9758 /* CitycableCH.bundle */; };
+		03AA62CF0D63BF6F003A9758 /* Citycable.png in Resources */ = {isa = PBXBuildFile; fileRef = 03AA62CB0D63BF6F003A9758 /* Citycable.png */; };
+		03AA62D00D63BF6F003A9758 /* CitycableCH.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AA62CD0D63BF6F003A9758 /* CitycableCH.m */; };
+		03AA6C470D689321003A9758 /* OrangeCH.bundle in Copy Plugins */ = {isa = PBXBuildFile; fileRef = 03AA62580D63B901003A9758 /* OrangeCH.bundle */; };
+		03ABCBE00BC72456003B0344 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 03ABCBDC0BC72456003B0344 /* Message.m */; };
+		03ABD2FE0BC954A9003B0344 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03ABD2FD0BC954A9003B0344 /* AddressBook.framework */; };
+		03ABD3C20BC9903E003B0344 /* ABPerson_SwissSMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 03ABD3C10BC9903E003B0344 /* ABPerson_SwissSMS.m */; };
+		03ABD5ED0BC9C79E003B0344 /* NSString_SwissSMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 03ABD5EC0BC9C79E003B0344 /* NSString_SwissSMS.m */; };
+		03AF75580CC40C3300F02DB9 /* SwissSMS_AppDelegate+Export.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AF75560CC40C3300F02DB9 /* SwissSMS_AppDelegate+Export.m */; };
+		03B9C23E0BFD074A003708D2 /* SwissSMS Help in Resources */ = {isa = PBXBuildFile; fileRef = 03B9C23A0BFD074A003708D2 /* SwissSMS Help */; };
+		03C1EC0D0E195CE800E53F5F /* SwissSMSDocument.icns in Resources */ = {isa = PBXBuildFile; fileRef = 03C1EC0C0E195CE800E53F5F /* SwissSMSDocument.icns */; };
+		03C262200E0C0A5B003D8C18 /* NSManagedObjectContext+Metadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C2621F0E0C0A5B003D8C18 /* NSManagedObjectContext+Metadata.m */; };
+		03CA8B600CF0A29900E3767B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CA8B5F0CF0A29900E3767B /* SenTestingKit.framework */; };
+		03CA8B8F0CF0A4CB00E3767B /* PhoneNumberFormatTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CA8B8E0CF0A4CB00E3767B /* PhoneNumberFormatTest.m */; };
+		03CC26AB0BD95C3C00AFD633 /* gpl.txt in Resources */ = {isa = PBXBuildFile; fileRef = 03CC26AA0BD95C3C00AFD633 /* gpl.txt */; };
+		03CC29B40BDAFE8400AFD633 /* SwissSMS.icns in Resources */ = {isa = PBXBuildFile; fileRef = 03CC29B30BDAFE8400AFD633 /* SwissSMS.icns */; };
+		03D30B000C07DBA6009BE310 /* SwissSMS_AppDelegate+Toolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D30AFF0C07DBA6009BE310 /* SwissSMS_AppDelegate+Toolbar.m */; };
+		03D8B2130C061185004639D6 /* appDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03D8B2120C061185004639D6 /* appDefaults.plist */; };
+		03D8B5580C067F94004639D6 /* NewMessage.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D8B5570C067F94004639D6 /* NewMessage.png */; };
+		03D8B55D0C067FC0004639D6 /* Inspect.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D8B55A0C067FC0004639D6 /* Inspect.png */; };
+		03D8B55E0C067FC0004639D6 /* Delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D8B55B0C067FC0004639D6 /* Delete.png */; };
+		03D8B55F0C067FC1004639D6 /* Flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D8B55C0C067FC0004639D6 /* Flag.png */; };
+		03D8B5AF0C06B328004639D6 /* FlagImageTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D8B5AE0C06B328004639D6 /* FlagImageTransformer.m */; };
+		03D8B5F70C06B544004639D6 /* FlaggedHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D8B5F50C06B544004639D6 /* FlaggedHeader.png */; };
+		03D8B5F80C06B544004639D6 /* Flagged.png in Resources */ = {isa = PBXBuildFile; fileRef = 03D8B5F60C06B544004639D6 /* Flagged.png */; };
+		03F38C290CF73ED600D0C5FF /* ABPerson_SwissSMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 03ABD3C10BC9903E003B0344 /* ABPerson_SwissSMS.m */; };
+		03F38C6E0CF8382C00D0C5FF /* NSWorkspace_SwissSMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 03085B3E0BEA853E007ADABD /* NSWorkspace_SwissSMS.m */; };
+		03F38D160CFA1B0F00D0C5FF /* NSFileManager_SwissSMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F38D150CFA1B0F00D0C5FF /* NSFileManager_SwissSMS.m */; };
+		03F61CDA0BEF9F9500D0FD7D /* MyPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F61CD90BEF9F9500D0FD7D /* MyPerson.m */; };
+		770B37ED0679A11B001EADE2 /* SwissSMS_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* SwissSMS_DataModel.xcdatamodel */; };
+		77C8280E06725ACE000B614F /* SwissSMS_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* SwissSMS_AppDelegate.m */; };
+		8414B3060CA3EF1B006703C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8414B2FE0CA3EF1B006703C2 /* InfoPlist.strings */; };
+		8414B3070CA3EF1B006703C2 /* main.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8414B3000CA3EF1B006703C2 /* main.nib */; };
+		8414B3090CA3EF1B006703C2 /* Send SMS.m in Sources */ = {isa = PBXBuildFile; fileRef = 8414B3040CA3EF1B006703C2 /* Send SMS.m */; };
+		8414B3510CA3F0AA006703C2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		8414B37F0CA3F105006703C2 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03ABD2FD0BC954A9003B0344 /* AddressBook.framework */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		DA02F8890DABE18100542065 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA02F8870DABE18100542065 /* Localizable.strings */; };
+		DA03FAF40D0897E600126A2C /* HTMLForm.h in Headers */ = {isa = PBXBuildFile; fileRef = DA03FAF20D0897E500126A2C /* HTMLForm.h */; };
+		DA32D5160CF097AD00F3F334 /* Send SMS with SwissSMS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DAE9D5610CF05AE400ABF778 /* Send SMS with SwissSMS.bundle */; };
+		DA39F7A90DA8E3F700F50935 /* SwissSMSUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = DA39F7A80DA8E3F700F50935 /* SwissSMSUpdater.m */; };
+		DA94D6600DA6019F006A8183 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA94D65F0DA6019F006A8183 /* Sparkle.framework */; };
+		DA94D6760DA601BA006A8183 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DA94D65F0DA6019F006A8183 /* Sparkle.framework */; };
+		DAA6ED010CE8471F00FCECAD /* Hispeed.png in Resources */ = {isa = PBXBuildFile; fileRef = DAA6ECFD0CE8471F00FCECAD /* Hispeed.png */; };
+		DAA6ED020CE8471F00FCECAD /* HispeedCH.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA6ECFF0CE8471F00FCECAD /* HispeedCH.m */; };
+		DAA6EDBE0CE8480200FCECAD /* HispeedCH.bundle in Copy Plugins */ = {isa = PBXBuildFile; fileRef = DAA6ECBF0CE846C900FCECAD /* HispeedCH.bundle */; };
+		DAA8E76A0CB7C4B300A64133 /* SwissSMSLarge.tiff in Resources */ = {isa = PBXBuildFile; fileRef = DAA8E7640CB7C47900A64133 /* SwissSMSLarge.tiff */; };
+		DAE9D5C80CF0785800ABF778 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAE9D5C20CF0785800ABF778 /* InfoPlist.strings */; };
+		DAE9D5CA0CF0785800ABF778 /* SwissSMSABPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE9D5C60CF0785800ABF778 /* SwissSMSABPlugin.m */; };
+		DAE9D5DB0CF078A100ABF778 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03ABD2FD0BC954A9003B0344 /* AddressBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0302EDCA0E05FBD8005D692E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0302EDAE0E05FB99005D692E;
+			remoteInfo = MDImporter;
+		};
+		032666650CD1BC45008373B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 032665EF0CD1BA23008373B6;
+			remoteInfo = RomandieCH;
+		};
+		032666670CD1BC45008373B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 032666230CD1BADD008373B6;
+			remoteInfo = OrangeCH;
+		};
+		032DD90D0E56127700D65944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 032DD8B20E5611AB00D65944;
+			remoteInfo = YalloCH;
+		};
+		034F277D0CD2A2280050A78E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03444B520CD2974E00AAF4B9;
+			remoteInfo = SunriseCH;
+		};
+		034F277F0CD2A2280050A78E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03444B910CD29E0F00AAF4B9;
+			remoteInfo = SwisscomXtraZoneCH;
+		};
+		034F27810CD2A2280050A78E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 034F27190CD29FF60050A78E;
+			remoteInfo = CoopMobileCH;
+		};
+		034F27830CD2A2280050A78E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 034F27460CD2A1360050A78E;
+			remoteInfo = PostMailCH;
+		};
+		03577B0E0CFB5E7D0071370A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03577AA40CFB5DB00071370A;
+			remoteInfo = SSSender;
+		};
+		0364758F1061A0CB002A2AF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 036474DD10619F0E002A2AF1;
+			remoteInfo = EthCH;
+		};
+		03AA60790D639C3A003A9758 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03AA5FCB0D638DD7003A9758;
+			remoteInfo = CitycableCH;
+		};
+		03CA960B0CF4EB1D00E3767B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03CA8B500CF0A12D00E3767B;
+			remoteInfo = Tests;
+		};
+		84B1D4560CA3F59400CA3207 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8414B2EA0CA3EEA7006703C2;
+			remoteInfo = "Send SMS";
+		};
+		DA32D4CA0CF096D200F3F334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAE9D5600CF05AE400ABF778;
+			remoteInfo = "Address Book plugin";
+		};
+		DAA6EB2D0CE845A900FCECAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 031F235D0CE5D20D00E0A88B;
+			remoteInfo = NetAppelINT;
+		};
+		DAA6ED1A0CE8473600FCECAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAA6ECBE0CE846C900FCECAD;
+			remoteInfo = HispeedCH;
+		};
+		DACA1D200FAE399500692ED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 033B13F10F8029FE00B1CA65;
+			remoteInfo = MjoyINT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0302F2B00E06363A005D692E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ../Library/Spotlight;
+			dstSubfolderSpec = 6;
+			files = (
+				0302F2CF0E0636AD005D692E /* SwissSMS.mdimporter in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03444AFA0CD294BD00AAF4B9 /* Copy Plugins */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0364757E1061A09C002A2AF1 /* EthCH.bundle in Copy Plugins */,
+				032DD92A0E56132F00D65944 /* YalloCH.bundle in Copy Plugins */,
+				03AA6C470D689321003A9758 /* OrangeCH.bundle in Copy Plugins */,
+				03AA62790D63B9A1003A9758 /* CitycableCH.bundle in Copy Plugins */,
+				032666AC0CD1BD0C008373B6 /* RomandieCH.bundle in Copy Plugins */,
+				034F27A80CD2A4860050A78E /* SunriseCH.bundle in Copy Plugins */,
+				034F27B20CD2A4870050A78E /* SwisscomXtraZoneCH.bundle in Copy Plugins */,
+				034F27BC0CD2A4880050A78E /* CoopMobileCH.bundle in Copy Plugins */,
+				DAA6EDBE0CE8480200FCECAD /* HispeedCH.bundle in Copy Plugins */,
+				03577DD50CFB6C970071370A /* NetAppelINT.bundle in Copy Plugins */,
+				03871D960F8053B100F24DC9 /* MjoyINT.bundle in Copy Plugins */,
+			);
+			name = "Copy Plugins";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03577AD50CFB5E600071370A /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				03577AD60CFB5E670071370A /* SSSender.framework in Copy Frameworks */,
+				DA94D6760DA601BA006A8183 /* Sparkle.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0302EDAF0E05FB99005D692E /* SwissSMS.mdimporter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwissSMS.mdimporter; sourceTree = BUILT_PRODUCTS_DIR; };
+		0302EDF20E05FC81005D692E /* schema.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = schema.xml; path = MDImporter/schema.xml; sourceTree = "<group>"; };
+		0302EDF30E05FC81005D692E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MDImporter/main.m; sourceTree = "<group>"; };
+		0302EDF70E05FC81005D692E /* GetMetadataForFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetMetadataForFile.m; path = MDImporter/GetMetadataForFile.m; sourceTree = "<group>"; };
+		0302EFCD0E062C04005D692E /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		0302EFCE0E062C04005D692E /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		0302EFCF0E062C04005D692E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0302F1810E062F81005D692E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MDImporter/Info.plist; sourceTree = "<group>"; };
+		0302F1C70E063232005D692E /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = MDImporter/English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03085B3D0BEA853E007ADABD /* NSWorkspace_SwissSMS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSWorkspace_SwissSMS.h; sourceTree = "<group>"; };
+		03085B3E0BEA853E007ADABD /* NSWorkspace_SwissSMS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSWorkspace_SwissSMS.m; sourceTree = "<group>"; };
+		03085FBD0BEBB65F007ADABD /* InstantMessage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InstantMessage.framework; path = /System/Library/Frameworks/InstantMessage.framework; sourceTree = "<absolute>"; };
+		030A48F40CB1A64500921D19 /* ABPerson_SwissSMS_AIM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABPerson_SwissSMS_AIM.h; sourceTree = "<group>"; };
+		030A48F50CB1A64500921D19 /* ABPerson_SwissSMS_AIM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABPerson_SwissSMS_AIM.m; sourceTree = "<group>"; };
+		031F236C0CE5D20D00E0A88B /* NetAppelINT.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetAppelINT.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		031F23750CE5D25A00E0A88B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		031F23760CE5D25A00E0A88B /* NetAppel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NetAppel.png; sourceTree = "<group>"; };
+		031F23770CE5D25A00E0A88B /* NetAppelINT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetAppelINT.h; sourceTree = "<group>"; };
+		031F23780CE5D25A00E0A88B /* NetAppelINT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetAppelINT.m; sourceTree = "<group>"; };
+		032665F00CD1BA23008373B6 /* RomandieCH.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomandieCH.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0326673B0CD1BF95008373B6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; name = Info.plist; path = Plugins/OrangeCH/Info.plist; sourceTree = "<group>"; };
+		0326673C0CD1BF95008373B6 /* Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Orange.png; path = Plugins/OrangeCH/Orange.png; sourceTree = "<group>"; };
+		0326673D0CD1BF95008373B6 /* OrangeCH.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = OrangeCH.h; path = Plugins/OrangeCH/OrangeCH.h; sourceTree = "<group>"; };
+		0326673E0CD1BF95008373B6 /* OrangeCH.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = OrangeCH.m; path = Plugins/OrangeCH/OrangeCH.m; sourceTree = "<group>"; };
+		032667700CD1FC0D008373B6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; name = Info.plist; path = Plugins/RomandieCH/Info.plist; sourceTree = "<group>"; };
+		032667710CD1FC0D008373B6 /* Romandie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Romandie.png; path = Plugins/RomandieCH/Romandie.png; sourceTree = "<group>"; };
+		032667720CD1FC0D008373B6 /* RomandieCH.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = RomandieCH.h; path = Plugins/RomandieCH/RomandieCH.h; sourceTree = "<group>"; };
+		032667730CD1FC0D008373B6 /* RomandieCH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RomandieCH.m; path = Plugins/RomandieCH/RomandieCH.m; sourceTree = "<group>"; };
+		032DD8B30E5611AB00D65944 /* YalloCH.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YalloCH.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		032DDA110E561F6D00D65944 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		032DDA120E561F6D00D65944 /* YalloCH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YalloCH.h; sourceTree = "<group>"; };
+		032DDA130E561F6D00D65944 /* YalloCH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YalloCH.m; sourceTree = "<group>"; };
+		032DDA140E561F6D00D65944 /* Yallo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yallo.png; sourceTree = "<group>"; };
+		03371F8C0BFCD13C00DF24AE /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		0339A1360C026E5E0055A2E6 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		0339A1370C026E5E0055A2E6 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 5; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		0339A13F0C026E8B0055A2E6 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Preferences.nib; sourceTree = "<group>"; };
+		0339A15F0C026FBB0055A2E6 /* update.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = update.tiff; path = Resources/update.tiff; sourceTree = "<group>"; };
+		0339A1600C026FBB0055A2E6 /* person.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = person.tiff; path = Resources/person.tiff; sourceTree = "<group>"; };
+		0339A1610C026FBB0055A2E6 /* general.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = general.png; path = Resources/general.png; sourceTree = "<group>"; };
+		0339A1620C026FBB0055A2E6 /* network.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = network.png; path = Resources/network.png; sourceTree = "<group>"; };
+		0339A23E0C027CCE0055A2E6 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/Preferences.nib; sourceTree = "<group>"; };
+		033B14110F802A6E00B1CA65 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		033B14120F802A6E00B1CA65 /* Mjoy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mjoy.png; sourceTree = "<group>"; };
+		033B14130F802A6E00B1CA65 /* MjoyINT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MjoyINT.h; sourceTree = "<group>"; };
+		033B14140F802A6E00B1CA65 /* MjoyINT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MjoyINT.m; sourceTree = "<group>"; };
+		033B141C0F802C8E00B1CA65 /* NSURL+SMSSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+SMSSender.h"; sourceTree = "<group>"; };
+		033B141D0F802C8E00B1CA65 /* NSURL+SMSSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+SMSSender.m"; sourceTree = "<group>"; };
+		033C0DE60CBA9E980007CC8D /* SSVersionCheck.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = SSVersionCheck.plist; sourceTree = "<group>"; };
+		033C0E760CBACAE70007CC8D /* SwissSMS_AppDelegate+TokenField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwissSMS_AppDelegate+TokenField.h"; sourceTree = "<group>"; };
+		033C0E770CBACAE70007CC8D /* SwissSMS_AppDelegate+TokenField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SwissSMS_AppDelegate+TokenField.m"; sourceTree = "<group>"; };
+		03441AEE0C1CBF1A00B5740F /* AddressBook.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = AddressBook.tiff; path = Resources/AddressBook.tiff; sourceTree = "<group>"; };
+		03444AE80CD2947A00AAF4B9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; name = Info.plist; path = Plugins/SunriseCH/Info.plist; sourceTree = "<group>"; };
+		03444AE90CD2947A00AAF4B9 /* Sunrise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sunrise.png; path = Plugins/SunriseCH/Sunrise.png; sourceTree = "<group>"; };
+		03444AEA0CD2947A00AAF4B9 /* SunriseCH.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SunriseCH.h; path = Plugins/SunriseCH/SunriseCH.h; sourceTree = "<group>"; };
+		03444AEB0CD2947A00AAF4B9 /* SunriseCH.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = SunriseCH.m; path = Plugins/SunriseCH/SunriseCH.m; sourceTree = "<group>"; };
+		03444B600CD2974E00AAF4B9 /* SunriseCH.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunriseCH.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		03444B9F0CD29E0F00AAF4B9 /* SwisscomXtraZoneCH.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwisscomXtraZoneCH.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		03444BBA0CD29F1000AAF4B9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; name = Info.plist; path = Plugins/SwisscomXtraZoneCH/Info.plist; sourceTree = "<group>"; };
+		03444BBB0CD29F1000AAF4B9 /* Swisscom Xtra-Zone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Swisscom Xtra-Zone.png"; path = "Plugins/SwisscomXtraZoneCH/Swisscom Xtra-Zone.png"; sourceTree = "<group>"; };
+		03444BBC0CD29F1000AAF4B9 /* SwisscomXtraZoneCH.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = SwisscomXtraZoneCH.h; path = Plugins/SwisscomXtraZoneCH/SwisscomXtraZoneCH.h; sourceTree = "<group>"; };
+		03444BBD0CD29F1000AAF4B9 /* SwisscomXtraZoneCH.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = SwisscomXtraZoneCH.m; path = Plugins/SwisscomXtraZoneCH/SwisscomXtraZoneCH.m; sourceTree = "<group>"; };
+		0344FF0D0CF4EBB60003E5D9 /* Tests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		0345E0570CDEA555005C28CE /* KeychainAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainAccess.h; sourceTree = "<group>"; };
+		0345E0580CDEA555005C28CE /* KeychainAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainAccess.m; sourceTree = "<group>"; };
+		034F27270CD29FF60050A78E /* CoopMobileCH.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoopMobileCH.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		034F272F0CD2A03B0050A78E /* Coop Mobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Coop Mobile.png"; path = "Plugins/CoopMobileCH/Coop Mobile.png"; sourceTree = "<group>"; };
+		034F27300CD2A03B0050A78E /* CoopMobileCH.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CoopMobileCH.h; path = Plugins/CoopMobileCH/CoopMobileCH.h; sourceTree = "<group>"; };
+		034F27310CD2A03B0050A78E /* CoopMobileCH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoopMobileCH.m; path = Plugins/CoopMobileCH/CoopMobileCH.m; sourceTree = "<group>"; };
+		034F27320CD2A03B0050A78E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; name = Info.plist; path = Plugins/CoopMobileCH/Info.plist; sourceTree = "<group>"; };
+		034F27540CD2A1360050A78E /* PostMailCH.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostMailCH.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		034F27660CD2A1DB0050A78E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; name = Info.plist; path = Plugins/PostMailCH/Info.plist; sourceTree = "<group>"; };
+		034F27670CD2A1DB0050A78E /* PostMail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PostMail.png; path = Plugins/PostMailCH/PostMail.png; sourceTree = "<group>"; };
+		034F27680CD2A1DB0050A78E /* PostMailCH.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = PostMailCH.h; path = Plugins/PostMailCH/PostMailCH.h; sourceTree = "<group>"; };
+		034F27690CD2A1DB0050A78E /* PostMailCH.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = PostMailCH.m; path = Plugins/PostMailCH/PostMailCH.m; sourceTree = "<group>"; };
+		0353E4B20BE004C10011C40D /* NSString+SMSSender.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSString+SMSSender.h"; sourceTree = "<group>"; };
+		0353E4B30BE004C10011C40D /* NSString+SMSSender.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSString+SMSSender.m"; sourceTree = "<group>"; };
+		0353E4B40BE004C10011C40D /* NSDictionary+SMSSender.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SMSSender.h"; sourceTree = "<group>"; };
+		0353E4B50BE004C10011C40D /* NSDictionary+SMSSender.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SMSSender.m"; sourceTree = "<group>"; };
+		0356AB090BFA3B0700D8E144 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0356AB0D0BFA3B1700D8E144 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		03577AA50CFB5DB00071370A /* SSSender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSSender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03577AA60CFB5DB00071370A /* SSSender-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSSender-Info.plist"; sourceTree = "<group>"; };
+		03577C370CFB63ED0071370A /* SSSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSSender.h; sourceTree = "<group>"; };
+		036474DE10619F0E002A2AF1 /* EthCH.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EthCH.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0364752410619F78002A2AF1 /* ETH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ETH.png; sourceTree = "<group>"; };
+		0364752510619F78002A2AF1 /* ETHCH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETHCH.h; sourceTree = "<group>"; };
+		0364752610619F78002A2AF1 /* ETHCH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETHCH.m; sourceTree = "<group>"; };
+		0364752710619F78002A2AF1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0371767E15CF1A2A008C9A61 /* STHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHTTPRequest.h; sourceTree = "<group>"; };
+		0371767F15CF1A2A008C9A61 /* STHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHTTPRequest.m; sourceTree = "<group>"; };
+		0371768315CF1D72008C9A61 /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		0371768415CF1D72008C9A61 /* OSAKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OSAKit.framework; path = System/Library/Frameworks/OSAKit.framework; sourceTree = SDKROOT; };
+		0371768515CF1D72008C9A61 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		03767E0A0CBFC59B003833A1 /* SSRecipient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSRecipient.h; sourceTree = "<group>"; };
+		03767E0B0CBFC59B003833A1 /* SSRecipient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSRecipient.m; sourceTree = "<group>"; };
+		03871D950F8053B100F24DC9 /* MjoyINT.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MjoyINT.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A9733B0BE15438005912FA /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; name = Credits.html; path = Resources/Credits.html; sourceTree = "<group>"; };
+		03AA5FD70D638DD7003A9758 /* CitycableCH.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitycableCH.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AA62580D63B901003A9758 /* OrangeCH.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrangeCH.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		03AA62CB0D63BF6F003A9758 /* Citycable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Citycable.png; sourceTree = "<group>"; };
+		03AA62CC0D63BF6F003A9758 /* CitycableCH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitycableCH.h; sourceTree = "<group>"; };
+		03AA62CD0D63BF6F003A9758 /* CitycableCH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitycableCH.m; sourceTree = "<group>"; };
+		03AA62CE0D63BF6F003A9758 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03ABA0810CCD678E0012FD0E /* AbstractSender.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AbstractSender.h; sourceTree = "<group>"; };
+		03ABA0820CCD678E0012FD0E /* AbstractSender.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AbstractSender.m; sourceTree = "<group>"; };
+		03ABCBDB0BC72456003B0344 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		03ABCBDC0BC72456003B0344 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		03ABD2FD0BC954A9003B0344 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = /System/Library/Frameworks/AddressBook.framework; sourceTree = "<absolute>"; };
+		03ABD3C00BC9903E003B0344 /* ABPerson_SwissSMS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABPerson_SwissSMS.h; sourceTree = "<group>"; };
+		03ABD3C10BC9903E003B0344 /* ABPerson_SwissSMS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABPerson_SwissSMS.m; sourceTree = "<group>"; };
+		03ABD5EB0BC9C79E003B0344 /* NSString_SwissSMS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString_SwissSMS.h; sourceTree = "<group>"; };
+		03ABD5EC0BC9C79E003B0344 /* NSString_SwissSMS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_SwissSMS.m; sourceTree = "<group>"; };
+		03AF75550CC40C3300F02DB9 /* SwissSMS_AppDelegate+Export.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwissSMS_AppDelegate+Export.h"; sourceTree = "<group>"; };
+		03AF75560CC40C3300F02DB9 /* SwissSMS_AppDelegate+Export.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SwissSMS_AppDelegate+Export.m"; sourceTree = "<group>"; };
+		03B9C23A0BFD074A003708D2 /* SwissSMS Help */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "SwissSMS Help"; path = "Resources/SwissSMS Help"; sourceTree = "<group>"; };
+		03C1EC0C0E195CE800E53F5F /* SwissSMSDocument.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = SwissSMSDocument.icns; path = Resources/SwissSMSDocument.icns; sourceTree = "<group>"; };
+		03C2621E0E0C0A5B003D8C18 /* NSManagedObjectContext+Metadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+Metadata.h"; sourceTree = "<group>"; };
+		03C2621F0E0C0A5B003D8C18 /* NSManagedObjectContext+Metadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+Metadata.m"; sourceTree = "<group>"; };
+		03CA8B510CF0A12D00E3767B /* Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CA8B5F0CF0A29900E3767B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = /System/Library/Frameworks/SenTestingKit.framework; sourceTree = "<absolute>"; };
+		03CA8B8D0CF0A4CB00E3767B /* PhoneNumberFormatTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumberFormatTest.h; sourceTree = "<group>"; };
+		03CA8B8E0CF0A4CB00E3767B /* PhoneNumberFormatTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberFormatTest.m; sourceTree = "<group>"; };
+		03CC26AA0BD95C3C00AFD633 /* gpl.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = gpl.txt; path = Resources/gpl.txt; sourceTree = "<group>"; };
+		03CC29B30BDAFE8400AFD633 /* SwissSMS.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = SwissSMS.icns; path = Resources/SwissSMS.icns; sourceTree = "<group>"; };
+		03D30AFE0C07DBA6009BE310 /* SwissSMS_AppDelegate+Toolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwissSMS_AppDelegate+Toolbar.h"; sourceTree = "<group>"; };
+		03D30AFF0C07DBA6009BE310 /* SwissSMS_AppDelegate+Toolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SwissSMS_AppDelegate+Toolbar.m"; sourceTree = "<group>"; };
+		03D8B2120C061185004639D6 /* appDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.xml; name = appDefaults.plist; path = Resources/appDefaults.plist; sourceTree = "<group>"; };
+		03D8B5570C067F94004639D6 /* NewMessage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NewMessage.png; path = Resources/NewMessage.png; sourceTree = "<group>"; };
+		03D8B55A0C067FC0004639D6 /* Inspect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Inspect.png; path = Resources/Inspect.png; sourceTree = "<group>"; };
+		03D8B55B0C067FC0004639D6 /* Delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Delete.png; path = Resources/Delete.png; sourceTree = "<group>"; };
+		03D8B55C0C067FC0004639D6 /* Flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Flag.png; path = Resources/Flag.png; sourceTree = "<group>"; };
+		03D8B5AD0C06B328004639D6 /* FlagImageTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagImageTransformer.h; sourceTree = "<group>"; };
+		03D8B5AE0C06B328004639D6 /* FlagImageTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagImageTransformer.m; sourceTree = "<group>"; };
+		03D8B5F50C06B544004639D6 /* FlaggedHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FlaggedHeader.png; path = Resources/FlaggedHeader.png; sourceTree = "<group>"; };
+		03D8B5F60C06B544004639D6 /* Flagged.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Flagged.png; path = Resources/Flagged.png; sourceTree = "<group>"; };
+		03F38D140CFA1B0F00D0C5FF /* NSFileManager_SwissSMS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSFileManager_SwissSMS.h; sourceTree = "<group>"; };
+		03F38D150CFA1B0F00D0C5FF /* NSFileManager_SwissSMS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFileManager_SwissSMS.m; sourceTree = "<group>"; };
+		03F39FAA0DA1797200BEE4D7 /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		03F39FAB0DA1799E00BEE4D7 /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/Preferences.nib; sourceTree = "<group>"; };
+		03F39FAC0DA179B800BEE4D7 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03F39FAD0DA179D300BEE4D7 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Localizable.strings; sourceTree = "<group>"; };
+		03F61CD80BEF9F9500D0FD7D /* MyPerson.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MyPerson.h; sourceTree = "<group>"; };
+		03F61CD90BEF9F9500D0FD7D /* MyPerson.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MyPerson.m; sourceTree = "<group>"; };
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		770B37EC0679A11B001EADE2 /* SwissSMS_DataModel.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = SwissSMS_DataModel.xcdatamodel; sourceTree = "<group>"; };
+		77C8280B06725ACE000B614F /* SwissSMS_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwissSMS_AppDelegate.h; sourceTree = "<group>"; };
+		77C8280C06725ACE000B614F /* SwissSMS_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwissSMS_AppDelegate.m; sourceTree = "<group>"; };
+		8414B2EB0CA3EEA7006703C2 /* Send SMS.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Send SMS.action"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8414B2EC0CA3EEA7006703C2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8414B2FF0CA3EF1B006703C2 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8414B3010CA3EF1B006703C2 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/main.nib; sourceTree = "<group>"; };
+		8414B3030CA3EF1B006703C2 /* Send SMS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Send SMS.h"; sourceTree = "<group>"; };
+		8414B3040CA3EF1B006703C2 /* Send SMS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Send SMS.m"; sourceTree = "<group>"; };
+		8414B3050CA3EF1B006703C2 /* Send SMS_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Send SMS_Prefix.pch"; sourceTree = "<group>"; };
+		8481AFF00CA7EF8F00138931 /* svnrevision.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = svnrevision.sh; path = Scripts/svnrevision.sh; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* SwissSMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwissSMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA02F8880DABE18100542065 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA02F88B0DABE1AE00542065 /* French */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA02F88C0DABE1B100542065 /* German */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA03FAF20D0897E500126A2C /* HTMLForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLForm.h; sourceTree = "<group>"; };
+		DA03FAF30D0897E500126A2C /* HTMLForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLForm.m; sourceTree = "<group>"; };
+		DA39F7A70DA8E3F700F50935 /* SwissSMSUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwissSMSUpdater.h; sourceTree = "<group>"; };
+		DA39F7A80DA8E3F700F50935 /* SwissSMSUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwissSMSUpdater.m; sourceTree = "<group>"; };
+		DA5C3BDB0CF61362004584A1 /* IMService_TigerCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMService_TigerCompat.h; sourceTree = "<group>"; };
+		DA67A2F10DAD5D3500EB751B /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/main.nib; sourceTree = "<group>"; };
+		DA94D65F0DA6019F006A8183 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Frameworks/Sparkle.framework; sourceTree = "<group>"; };
+		DAA6ECBF0CE846C900FCECAD /* HispeedCH.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HispeedCH.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA6ECFD0CE8471F00FCECAD /* Hispeed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hispeed.png; sourceTree = "<group>"; };
+		DAA6ECFE0CE8471F00FCECAD /* HispeedCH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HispeedCH.h; sourceTree = "<group>"; };
+		DAA6ECFF0CE8471F00FCECAD /* HispeedCH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HispeedCH.m; sourceTree = "<group>"; };
+		DAA6ED000CE8471F00FCECAD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA8E7640CB7C47900A64133 /* SwissSMSLarge.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = SwissSMSLarge.tiff; path = Resources/SwissSMSLarge.tiff; sourceTree = "<group>"; };
+		DAA8E7D30CB7C94200A64133 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAA8E7D60CB7C95A00A64133 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/main.nib; sourceTree = "<group>"; };
+		DAC0A6260DAC21FA008772B9 /* German */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAC0A6EA0DAC8DD6008772B9 /* signcode.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = signcode.sh; path = Scripts/signcode.sh; sourceTree = "<group>"; };
+		DAE9D5610CF05AE400ABF778 /* Send SMS with SwissSMS.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Send SMS with SwissSMS.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE9D5C30CF0785800ABF778 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAE9D5C40CF0785800ABF778 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE9D5C50CF0785800ABF778 /* SwissSMSABPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwissSMSABPlugin.h; sourceTree = "<group>"; };
+		DAE9D5C60CF0785800ABF778 /* SwissSMSABPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwissSMSABPlugin.m; sourceTree = "<group>"; };
+		DAE9D5C70CF0785800ABF778 /* SwissSMSABPlugin_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SwissSMSABPlugin_Prefix.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0302EDAD0E05FB99005D692E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0302EFD00E062C04005D692E /* CoreFoundation.framework in Frameworks */,
+				0302EFD10E062C04005D692E /* CoreServices.framework in Frameworks */,
+				0302EFD20E062C04005D692E /* Foundation.framework in Frameworks */,
+				0371769415CF1D72008C9A61 /* Automator.framework in Frameworks */,
+				037176A615CF1D72008C9A61 /* OSAKit.framework in Frameworks */,
+				037176B815CF1D72008C9A61 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031F23660CE5D20D00E0A88B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031F23670CE5D20D00E0A88B /* Cocoa.framework in Frameworks */,
+				032DDA750E56244800D65944 /* SSSender.framework in Frameworks */,
+				0371769115CF1D72008C9A61 /* Automator.framework in Frameworks */,
+				037176A315CF1D72008C9A61 /* OSAKit.framework in Frameworks */,
+				037176B515CF1D72008C9A61 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032665EE0CD1BA23008373B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03577C870CFB66020071370A /* Cocoa.framework in Frameworks */,
+				03577B6B0CFB60440071370A /* SSSender.framework in Frameworks */,
+				0371768A15CF1D72008C9A61 /* Automator.framework in Frameworks */,
+				0371769C15CF1D72008C9A61 /* OSAKit.framework in Frameworks */,
+				037176AE15CF1D72008C9A61 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032666220CD1BADD008373B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0326662B0CD1BAE9008373B6 /* Cocoa.framework in Frameworks */,
+				03577B710CFB60660071370A /* SSSender.framework in Frameworks */,
+				0371768B15CF1D72008C9A61 /* Automator.framework in Frameworks */,
+				0371769D15CF1D72008C9A61 /* OSAKit.framework in Frameworks */,
+				037176AF15CF1D72008C9A61 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032DD8B10E5611AB00D65944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032DDA6B0E5623E800D65944 /* Cocoa.framework in Frameworks */,
+				032DDA760E56245900D65944 /* SSSender.framework in Frameworks */,
+				0371769515CF1D72008C9A61 /* Automator.framework in Frameworks */,
+				037176A715CF1D72008C9A61 /* OSAKit.framework in Frameworks */,
+				037176B915CF1D72008C9A61 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033B13F00F8029FE00B1CA65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036F11BD0F8035A1009DABFF /* SSSender.framework in Frameworks */,
+				0371769615CF1D72008C9A61 /* Automator.framework in Frameworks */,
+				037176A815CF1D72008C9A61 /* OSAKit.framework in Frameworks */,
+				037176BA15CF1D72008C9A61 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03444B5B0CD2974E00AAF4B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03444B5C0CD2974E00AAF4B9 /* Cocoa.framework in Frameworks */,
+				03577BA60CFB608A0071370A /* SSSender.framework in Frameworks */,
+				0371768C15CF1D72008C9A61 /* Automator.framework in Frameworks */,
+				0371769E15CF1D72008C9A61 /* OSAKit.framework in Frameworks */,
+				037176B015CF1D72008C9A61 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03444B9A0CD29E0F00AAF4B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03444B9B0CD29E0F00AAF4B9 /* Cocoa.framework in Frameworks */,
+				03577BA90CFB609F0071370A /* SSSender.framework in Frameworks */,
+				0371768D15CF1D72008C9A61 /* Automator.framework in Frameworks */,
+				0371769F15CF1D72008C9A61 /* OSAKit.framework in Frameworks */,
+				037176B115CF1D72008C9A61 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034F27220CD29FF60050A78E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034F27230CD29FF60050A78E /* Cocoa.framework in Frameworks */,
+				03577BB40CFB60E40071370A /* SSSender.framework in Frameworks */,
+				0371768E15CF1D72008C9A61 /* Automator.framework in Frameworks */,
+				037176A015CF1D72008C9A61 /* OSAKit.framework in Frameworks */,
+				037176B215CF1D72008C9A61 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034F274F0CD2A1360050A78E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034F27500CD2A1360050A78E /* Cocoa.framework in Frameworks */,
+				03577BB60CFB60F70071370A /* SSSender.framework in Frameworks */,
+				0371768F15CF1D72008C9A61 /* Automator.framework in Frameworks */,
+				037176A115CF1D72008C9A61 /* OSAKit.framework in Frameworks */,
+				037176B315CF1D72008C9A61 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03577AA30CFB5DB00071370A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0371768915CF1D72008C9A61 /* Automator.framework in Frameworks */,
+				0371769B15CF1D72008C9A61 /* OSAKit.framework in Frameworks */,
+				037176AD15CF1D72008C9A61 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036474DC10619F0E002A2AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0364750110619F4F002A2AF1 /* SSSender.framework in Frameworks */,
+				0371769715CF1D72008C9A61 /* Automator.framework in Frameworks */,
+				037176A915CF1D72008C9A61 /* OSAKit.framework in Frameworks */,
+				037176BB15CF1D72008C9A61 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AA5FD10D638DD7003A9758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AA5FD20D638DD7003A9758 /* Cocoa.framework in Frameworks */,
+				03AA5FD30D638DD7003A9758 /* SSSender.framework in Frameworks */,
+				0371769315CF1D72008C9A61 /* Automator.framework in Frameworks */,
+				037176A515CF1D72008C9A61 /* OSAKit.framework in Frameworks */,
+				037176B715CF1D72008C9A61 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CA8B4E0CF0A12D00E3767B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CA8B600CF0A29900E3767B /* SenTestingKit.framework in Frameworks */,
+				03577BF10CFB62C50071370A /* SSSender.framework in Frameworks */,
+				0371769215CF1D72008C9A61 /* Automator.framework in Frameworks */,
+				037176A415CF1D72008C9A61 /* OSAKit.framework in Frameworks */,
+				037176B615CF1D72008C9A61 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8414B2E90CA3EEA7006703C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8414B3510CA3F0AA006703C2 /* Cocoa.framework in Frameworks */,
+				8414B37F0CA3F105006703C2 /* AddressBook.framework in Frameworks */,
+				0371768715CF1D72008C9A61 /* Automator.framework in Frameworks */,
+				0371769915CF1D72008C9A61 /* OSAKit.framework in Frameworks */,
+				037176AB15CF1D72008C9A61 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03577AAB0CFB5E340071370A /* SSSender.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				03ABD2FE0BC954A9003B0344 /* AddressBook.framework in Frameworks */,
+				03085FBE0BEBB660007ADABD /* InstantMessage.framework in Frameworks */,
+				DA94D6600DA6019F006A8183 /* Sparkle.framework in Frameworks */,
+				0371768615CF1D72008C9A61 /* Automator.framework in Frameworks */,
+				0371769815CF1D72008C9A61 /* OSAKit.framework in Frameworks */,
+				037176AA15CF1D72008C9A61 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA6ECBD0CE846C900FCECAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03577BBA0CFB61280071370A /* Cocoa.framework in Frameworks */,
+				03577BB80CFB61090071370A /* SSSender.framework in Frameworks */,
+				0371769015CF1D72008C9A61 /* Automator.framework in Frameworks */,
+				037176A215CF1D72008C9A61 /* OSAKit.framework in Frameworks */,
+				037176B415CF1D72008C9A61 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE9D55F0CF05AE400ABF778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE9D5DB0CF078A100ABF778 /* AddressBook.framework in Frameworks */,
+				0371768815CF1D72008C9A61 /* Automator.framework in Frameworks */,
+				0371769A15CF1D72008C9A61 /* OSAKit.framework in Frameworks */,
+				037176AC15CF1D72008C9A61 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0302EDE70E05FBF1005D692E /* MDImporter */ = {
+			isa = PBXGroup;
+			children = (
+				0302F1C60E063232005D692E /* InfoPlist.strings */,
+				0302F1810E062F81005D692E /* Info.plist */,
+				0302EDF20E05FC81005D692E /* schema.xml */,
+				0302EDF30E05FC81005D692E /* main.m */,
+				0302EDF70E05FC81005D692E /* GetMetadataForFile.m */,
+			);
+			name = MDImporter;
+			sourceTree = "<group>";
+		};
+		031F23740CE5D25A00E0A88B /* NetAppelINT */ = {
+			isa = PBXGroup;
+			children = (
+				031F23750CE5D25A00E0A88B /* Info.plist */,
+				031F23760CE5D25A00E0A88B /* NetAppel.png */,
+				031F23770CE5D25A00E0A88B /* NetAppelINT.h */,
+				031F23780CE5D25A00E0A88B /* NetAppelINT.m */,
+			);
+			name = NetAppelINT;
+			path = Plugins/NetAppelINT;
+			sourceTree = "<group>";
+		};
+		032665830CD1B850008373B6 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				0364752310619F78002A2AF1 /* ETHCH */,
+				033B14100F802A6E00B1CA65 /* MjoyINT */,
+				032DDA100E561F6D00D65944 /* YalloCH */,
+				03AA62CA0D63BF6F003A9758 /* CitycableCH */,
+				0326676A0CD1FBEE008373B6 /* RomandieCH */,
+				032667380CD1BF7B008373B6 /* OrangeCH */,
+				03444AE20CD2945700AAF4B9 /* SunriseCH */,
+				03444BB60CD29EF700AAF4B9 /* SwisscomXtraZoneCH */,
+				034F27290CD2A0200050A78E /* CoopMobileCH */,
+				034F27580CD2A1BC0050A78E /* PostMailCH */,
+				DAA6ECFC0CE8471F00FCECAD /* HispeedCH */,
+				031F23740CE5D25A00E0A88B /* NetAppelINT */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
+		032667380CD1BF7B008373B6 /* OrangeCH */ = {
+			isa = PBXGroup;
+			children = (
+				0326673B0CD1BF95008373B6 /* Info.plist */,
+				0326673C0CD1BF95008373B6 /* Orange.png */,
+				0326673D0CD1BF95008373B6 /* OrangeCH.h */,
+				0326673E0CD1BF95008373B6 /* OrangeCH.m */,
+			);
+			name = OrangeCH;
+			sourceTree = "<group>";
+		};
+		0326676A0CD1FBEE008373B6 /* RomandieCH */ = {
+			isa = PBXGroup;
+			children = (
+				032667700CD1FC0D008373B6 /* Info.plist */,
+				032667710CD1FC0D008373B6 /* Romandie.png */,
+				032667720CD1FC0D008373B6 /* RomandieCH.h */,
+				032667730CD1FC0D008373B6 /* RomandieCH.m */,
+			);
+			name = RomandieCH;
+			sourceTree = "<group>";
+		};
+		032DDA100E561F6D00D65944 /* YalloCH */ = {
+			isa = PBXGroup;
+			children = (
+				032DDA110E561F6D00D65944 /* Info.plist */,
+				032DDA120E561F6D00D65944 /* YalloCH.h */,
+				032DDA130E561F6D00D65944 /* YalloCH.m */,
+				032DDA140E561F6D00D65944 /* Yallo.png */,
+			);
+			name = YalloCH;
+			path = Plugins/YalloCH;
+			sourceTree = "<group>";
+		};
+		033B14100F802A6E00B1CA65 /* MjoyINT */ = {
+			isa = PBXGroup;
+			children = (
+				033B14110F802A6E00B1CA65 /* Info.plist */,
+				033B14120F802A6E00B1CA65 /* Mjoy.png */,
+				033B14130F802A6E00B1CA65 /* MjoyINT.h */,
+				033B14140F802A6E00B1CA65 /* MjoyINT.m */,
+			);
+			name = MjoyINT;
+			path = Plugins/MjoyINT;
+			sourceTree = "<group>";
+		};
+		03444AE20CD2945700AAF4B9 /* SunriseCH */ = {
+			isa = PBXGroup;
+			children = (
+				03444AE80CD2947A00AAF4B9 /* Info.plist */,
+				03444AE90CD2947A00AAF4B9 /* Sunrise.png */,
+				03444AEA0CD2947A00AAF4B9 /* SunriseCH.h */,
+				03444AEB0CD2947A00AAF4B9 /* SunriseCH.m */,
+			);
+			name = SunriseCH;
+			sourceTree = "<group>";
+		};
+		03444BB60CD29EF700AAF4B9 /* SwisscomXtraZoneCH */ = {
+			isa = PBXGroup;
+			children = (
+				03444BBA0CD29F1000AAF4B9 /* Info.plist */,
+				03444BBB0CD29F1000AAF4B9 /* Swisscom Xtra-Zone.png */,
+				03444BBC0CD29F1000AAF4B9 /* SwisscomXtraZoneCH.h */,
+				03444BBD0CD29F1000AAF4B9 /* SwisscomXtraZoneCH.m */,
+			);
+			name = SwisscomXtraZoneCH;
+			sourceTree = "<group>";
+		};
+		034F27290CD2A0200050A78E /* CoopMobileCH */ = {
+			isa = PBXGroup;
+			children = (
+				034F27320CD2A03B0050A78E /* Info.plist */,
+				034F272F0CD2A03B0050A78E /* Coop Mobile.png */,
+				034F27300CD2A03B0050A78E /* CoopMobileCH.h */,
+				034F27310CD2A03B0050A78E /* CoopMobileCH.m */,
+			);
+			name = CoopMobileCH;
+			sourceTree = "<group>";
+		};
+		034F27580CD2A1BC0050A78E /* PostMailCH */ = {
+			isa = PBXGroup;
+			children = (
+				034F27660CD2A1DB0050A78E /* Info.plist */,
+				034F27670CD2A1DB0050A78E /* PostMail.png */,
+				034F27680CD2A1DB0050A78E /* PostMailCH.h */,
+				034F27690CD2A1DB0050A78E /* PostMailCH.m */,
+			);
+			name = PostMailCH;
+			sourceTree = "<group>";
+		};
+		03577BC60CFB61FE0071370A /* SSSenderFramework */ = {
+			isa = PBXGroup;
+			children = (
+				03577AA60CFB5DB00071370A /* SSSender-Info.plist */,
+				03577C370CFB63ED0071370A /* SSSender.h */,
+				03ABA0810CCD678E0012FD0E /* AbstractSender.h */,
+				03ABA0820CCD678E0012FD0E /* AbstractSender.m */,
+				DA03FAF20D0897E500126A2C /* HTMLForm.h */,
+				DA03FAF30D0897E500126A2C /* HTMLForm.m */,
+				0353E4B20BE004C10011C40D /* NSString+SMSSender.h */,
+				0353E4B30BE004C10011C40D /* NSString+SMSSender.m */,
+				0353E4B40BE004C10011C40D /* NSDictionary+SMSSender.h */,
+				0353E4B50BE004C10011C40D /* NSDictionary+SMSSender.m */,
+				033B141C0F802C8E00B1CA65 /* NSURL+SMSSender.h */,
+				033B141D0F802C8E00B1CA65 /* NSURL+SMSSender.m */,
+			);
+			name = SSSenderFramework;
+			sourceTree = "<group>";
+		};
+		0364752310619F78002A2AF1 /* ETHCH */ = {
+			isa = PBXGroup;
+			children = (
+				0364752410619F78002A2AF1 /* ETH.png */,
+				0364752510619F78002A2AF1 /* ETHCH.h */,
+				0364752610619F78002A2AF1 /* ETHCH.m */,
+				0364752710619F78002A2AF1 /* Info.plist */,
+			);
+			name = ETHCH;
+			path = Plugins/ETHCH;
+			sourceTree = "<group>";
+		};
+		0371767D15CF1A2A008C9A61 /* STHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				0371767E15CF1A2A008C9A61 /* STHTTPRequest.h */,
+				0371767F15CF1A2A008C9A61 /* STHTTPRequest.m */,
+			);
+			path = STHTTPRequest;
+			sourceTree = "<group>";
+		};
+		03AA62CA0D63BF6F003A9758 /* CitycableCH */ = {
+			isa = PBXGroup;
+			children = (
+				03AA62CB0D63BF6F003A9758 /* Citycable.png */,
+				03AA62CC0D63BF6F003A9758 /* CitycableCH.h */,
+				03AA62CD0D63BF6F003A9758 /* CitycableCH.m */,
+				03AA62CE0D63BF6F003A9758 /* Info.plist */,
+			);
+			name = CitycableCH;
+			path = Plugins/CitycableCH;
+			sourceTree = "<group>";
+		};
+		03CA8B730CF0A2B300E3767B /* Test Cases */ = {
+			isa = PBXGroup;
+			children = (
+				0344FF0D0CF4EBB60003E5D9 /* Tests-Info.plist */,
+				03CA8B8D0CF0A4CB00E3767B /* PhoneNumberFormatTest.h */,
+				03CA8B8E0CF0A4CB00E3767B /* PhoneNumberFormatTest.m */,
+			);
+			name = "Test Cases";
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0345E0570CDEA555005C28CE /* KeychainAccess.h */,
+				0345E0580CDEA555005C28CE /* KeychainAccess.m */,
+				0339A1360C026E5E0055A2E6 /* PreferencesController.h */,
+				0339A1370C026E5E0055A2E6 /* PreferencesController.m */,
+				77C8280B06725ACE000B614F /* SwissSMS_AppDelegate.h */,
+				77C8280C06725ACE000B614F /* SwissSMS_AppDelegate.m */,
+				DA39F7A70DA8E3F700F50935 /* SwissSMSUpdater.h */,
+				DA39F7A80DA8E3F700F50935 /* SwissSMSUpdater.m */,
+				03D30AFE0C07DBA6009BE310 /* SwissSMS_AppDelegate+Toolbar.h */,
+				03D30AFF0C07DBA6009BE310 /* SwissSMS_AppDelegate+Toolbar.m */,
+				033C0E760CBACAE70007CC8D /* SwissSMS_AppDelegate+TokenField.h */,
+				033C0E770CBACAE70007CC8D /* SwissSMS_AppDelegate+TokenField.m */,
+				03AF75550CC40C3300F02DB9 /* SwissSMS_AppDelegate+Export.h */,
+				03AF75560CC40C3300F02DB9 /* SwissSMS_AppDelegate+Export.m */,
+				03767E0A0CBFC59B003833A1 /* SSRecipient.h */,
+				03767E0B0CBFC59B003833A1 /* SSRecipient.m */,
+				03ABD3C00BC9903E003B0344 /* ABPerson_SwissSMS.h */,
+				03ABD3C10BC9903E003B0344 /* ABPerson_SwissSMS.m */,
+				030A48F40CB1A64500921D19 /* ABPerson_SwissSMS_AIM.h */,
+				030A48F50CB1A64500921D19 /* ABPerson_SwissSMS_AIM.m */,
+				DA5C3BDB0CF61362004584A1 /* IMService_TigerCompat.h */,
+				03F38D140CFA1B0F00D0C5FF /* NSFileManager_SwissSMS.h */,
+				03F38D150CFA1B0F00D0C5FF /* NSFileManager_SwissSMS.m */,
+				03ABD5EB0BC9C79E003B0344 /* NSString_SwissSMS.h */,
+				03ABD5EC0BC9C79E003B0344 /* NSString_SwissSMS.m */,
+				03085B3D0BEA853E007ADABD /* NSWorkspace_SwissSMS.h */,
+				03085B3E0BEA853E007ADABD /* NSWorkspace_SwissSMS.m */,
+				03F61CD80BEF9F9500D0FD7D /* MyPerson.h */,
+				03F61CD90BEF9F9500D0FD7D /* MyPerson.m */,
+				03D8B5AD0C06B328004639D6 /* FlagImageTransformer.h */,
+				03D8B5AE0C06B328004639D6 /* FlagImageTransformer.m */,
+				03C2621E0E0C0A5B003D8C18 /* NSManagedObjectContext+Metadata.h */,
+				03C2621F0E0C0A5B003D8C18 /* NSManagedObjectContext+Metadata.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03CA8B5F0CF0A29900E3767B /* SenTestingKit.framework */,
+				03085FBD0BEBB65F007ADABD /* InstantMessage.framework */,
+				03ABD2FD0BC954A9003B0344 /* AddressBook.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0371768315CF1D72008C9A61 /* Automator.framework */,
+				0371768415CF1D72008C9A61 /* OSAKit.framework */,
+				0371768515CF1D72008C9A61 /* Security.framework */,
+				0302EFCD0E062C04005D692E /* CoreFoundation.framework */,
+				0302EFCE0E062C04005D692E /* CoreServices.framework */,
+				0302EFCF0E062C04005D692E /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				DA94D65F0DA6019F006A8183 /* Sparkle.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03577AA50CFB5DB00071370A /* SSSender.framework */,
+				8D1107320486CEB800E47090 /* SwissSMS.app */,
+				8414B2EB0CA3EEA7006703C2 /* Send SMS.action */,
+				DAE9D5610CF05AE400ABF778 /* Send SMS with SwissSMS.bundle */,
+				032665F00CD1BA23008373B6 /* RomandieCH.bundle */,
+				03444B600CD2974E00AAF4B9 /* SunriseCH.bundle */,
+				03444B9F0CD29E0F00AAF4B9 /* SwisscomXtraZoneCH.bundle */,
+				034F27270CD29FF60050A78E /* CoopMobileCH.bundle */,
+				034F27540CD2A1360050A78E /* PostMailCH.bundle */,
+				DAA6ECBF0CE846C900FCECAD /* HispeedCH.bundle */,
+				031F236C0CE5D20D00E0A88B /* NetAppelINT.bundle */,
+				03CA8B510CF0A12D00E3767B /* Tests.octest */,
+				03AA5FD70D638DD7003A9758 /* CitycableCH.bundle */,
+				03AA62580D63B901003A9758 /* OrangeCH.bundle */,
+				0302EDAF0E05FB99005D692E /* SwissSMS.mdimporter */,
+				032DD8B30E5611AB00D65944 /* YalloCH.bundle */,
+				03871D950F8053B100F24DC9 /* MjoyINT.bundle */,
+				036474DE10619F0E002A2AF1 /* EthCH.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* SwissSMS */ = {
+			isa = PBXGroup;
+			children = (
+				03CA8B730CF0A2B300E3767B /* Test Cases */,
+				03CC26AA0BD95C3C00AFD633 /* gpl.txt */,
+				7756732906782D8800D1FEB8 /* Models */,
+				0371767D15CF1A2A008C9A61 /* STHTTPRequest */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				03577BC60CFB61FE0071370A /* SSSenderFramework */,
+				032665830CD1B850008373B6 /* Plugins */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				8414B2FD0CA3EF1B006703C2 /* Automator action */,
+				DAE9D5C10CF0785800ABF778 /* Address Book plugin */,
+				0302EDE70E05FBF1005D692E /* MDImporter */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				DAC0A6E50DAC8D6C008772B9 /* Scripts */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = SwissSMS;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				033C0DE60CBA9E980007CC8D /* SSVersionCheck.plist */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03441AEE0C1CBF1A00B5740F /* AddressBook.tiff */,
+				03D8B55A0C067FC0004639D6 /* Inspect.png */,
+				03D8B55B0C067FC0004639D6 /* Delete.png */,
+				03D8B55C0C067FC0004639D6 /* Flag.png */,
+				03D8B5F50C06B544004639D6 /* FlaggedHeader.png */,
+				03D8B5F60C06B544004639D6 /* Flagged.png */,
+				03D8B5570C067F94004639D6 /* NewMessage.png */,
+				03D8B2120C061185004639D6 /* appDefaults.plist */,
+				03B9C23A0BFD074A003708D2 /* SwissSMS Help */,
+				0356AB0B0BFA3B1200D8E144 /* Localizable.strings */,
+				03A9733B0BE15438005912FA /* Credits.html */,
+				03CC29B30BDAFE8400AFD633 /* SwissSMS.icns */,
+				DAA8E7640CB7C47900A64133 /* SwissSMSLarge.tiff */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				03371F8A0BFCD13700DF24AE /* MainMenu.nib */,
+				0339A13E0C026E8B0055A2E6 /* Preferences.nib */,
+				0339A15F0C026FBB0055A2E6 /* update.tiff */,
+				0339A1600C026FBB0055A2E6 /* person.tiff */,
+				0339A1610C026FBB0055A2E6 /* general.png */,
+				0339A1620C026FBB0055A2E6 /* network.png */,
+				03C1EC0C0E195CE800E53F5F /* SwissSMSDocument.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7756732906782D8800D1FEB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				770B37EC0679A11B001EADE2 /* SwissSMS_DataModel.xcdatamodel */,
+				03ABCBDB0BC72456003B0344 /* Message.h */,
+				03ABCBDC0BC72456003B0344 /* Message.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8414B2FD0CA3EF1B006703C2 /* Automator action */ = {
+			isa = PBXGroup;
+			children = (
+				8414B3050CA3EF1B006703C2 /* Send SMS_Prefix.pch */,
+				8414B3030CA3EF1B006703C2 /* Send SMS.h */,
+				8414B3040CA3EF1B006703C2 /* Send SMS.m */,
+				8414B2FE0CA3EF1B006703C2 /* InfoPlist.strings */,
+				8414B3000CA3EF1B006703C2 /* main.nib */,
+				8414B2EC0CA3EEA7006703C2 /* Info.plist */,
+			);
+			path = "Automator action";
+			sourceTree = "<group>";
+		};
+		DAA6ECFC0CE8471F00FCECAD /* HispeedCH */ = {
+			isa = PBXGroup;
+			children = (
+				DAA6ED000CE8471F00FCECAD /* Info.plist */,
+				DAA6ECFD0CE8471F00FCECAD /* Hispeed.png */,
+				DAA6ECFE0CE8471F00FCECAD /* HispeedCH.h */,
+				DAA6ECFF0CE8471F00FCECAD /* HispeedCH.m */,
+			);
+			name = HispeedCH;
+			path = Plugins/HispeedCH;
+			sourceTree = "<group>";
+		};
+		DAC0A6E50DAC8D6C008772B9 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				8481AFF00CA7EF8F00138931 /* svnrevision.sh */,
+				DAC0A6EA0DAC8DD6008772B9 /* signcode.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		DAE9D5C10CF0785800ABF778 /* Address Book plugin */ = {
+			isa = PBXGroup;
+			children = (
+				DAE9D5C20CF0785800ABF778 /* InfoPlist.strings */,
+				DAE9D5C40CF0785800ABF778 /* Info.plist */,
+				DA02F8870DABE18100542065 /* Localizable.strings */,
+				DAE9D5C50CF0785800ABF778 /* SwissSMSABPlugin.h */,
+				DAE9D5C60CF0785800ABF778 /* SwissSMSABPlugin.m */,
+				DAE9D5C70CF0785800ABF778 /* SwissSMSABPlugin_Prefix.pch */,
+			);
+			path = "Address Book plugin";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03577AA00CFB5DB00071370A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033B141E0F802C8E00B1CA65 /* NSURL+SMSSender.h in Headers */,
+				03577C380CFB63ED0071370A /* SSSender.h in Headers */,
+				03577B3E0CFB5F320071370A /* AbstractSender.h in Headers */,
+				03577B400CFB5F350071370A /* NSString+SMSSender.h in Headers */,
+				03577B430CFB5F360071370A /* NSDictionary+SMSSender.h in Headers */,
+				DA03FAF40D0897E600126A2C /* HTMLForm.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0302EDAE0E05FB99005D692E /* MDImporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0302EDB30E05FB99005D692E /* Build configuration list for PBXNativeTarget "MDImporter" */;
+			buildPhases = (
+				0302EDAB0E05FB99005D692E /* Resources */,
+				0302EDAC0E05FB99005D692E /* Sources */,
+				0302EDAD0E05FB99005D692E /* Frameworks */,
+				0302F3040E063803005D692E /* Sign code */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDImporter;
+			productName = MDImporter;
+			productReference = 0302EDAF0E05FB99005D692E /* SwissSMS.mdimporter */;
+			productType = "com.apple.product-type.bundle";
+		};
+		031F235D0CE5D20D00E0A88B /* NetAppelINT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 031F23690CE5D20D00E0A88B /* Build configuration list for PBXNativeTarget "NetAppelINT" */;
+			buildPhases = (
+				031F235E0CE5D20D00E0A88B /* Resources */,
+				031F23610CE5D20D00E0A88B /* Sources */,
+				031F23660CE5D20D00E0A88B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetAppelINT;
+			productName = OrangeCH;
+			productReference = 031F236C0CE5D20D00E0A88B /* NetAppelINT.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		032665EF0CD1BA23008373B6 /* RomandieCH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032665F20CD1BA24008373B6 /* Build configuration list for PBXNativeTarget "RomandieCH" */;
+			buildPhases = (
+				032665EC0CD1BA23008373B6 /* Resources */,
+				032665ED0CD1BA23008373B6 /* Sources */,
+				032665EE0CD1BA23008373B6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RomandieCH;
+			productName = RomandieCH;
+			productReference = 032665F00CD1BA23008373B6 /* RomandieCH.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		032666230CD1BADD008373B6 /* OrangeCH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032666260CD1BADD008373B6 /* Build configuration list for PBXNativeTarget "OrangeCH" */;
+			buildPhases = (
+				032666200CD1BADD008373B6 /* Resources */,
+				032666210CD1BADD008373B6 /* Sources */,
+				032666220CD1BADD008373B6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrangeCH;
+			productName = OrangeCH;
+			productReference = 03AA62580D63B901003A9758 /* OrangeCH.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		032DD8B20E5611AB00D65944 /* YalloCH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032DD8B70E5611AB00D65944 /* Build configuration list for PBXNativeTarget "YalloCH" */;
+			buildPhases = (
+				032DD8AF0E5611AB00D65944 /* Resources */,
+				032DD8B00E5611AB00D65944 /* Sources */,
+				032DD8B10E5611AB00D65944 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YalloCH;
+			productName = YalloCH;
+			productReference = 032DD8B30E5611AB00D65944 /* YalloCH.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		033B13F10F8029FE00B1CA65 /* MjoyINT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033B13F60F8029FF00B1CA65 /* Build configuration list for PBXNativeTarget "MjoyINT" */;
+			buildPhases = (
+				033B13EE0F8029FE00B1CA65 /* Resources */,
+				033B13EF0F8029FE00B1CA65 /* Sources */,
+				033B13F00F8029FE00B1CA65 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MjoyINT;
+			productName = MjoyINT;
+			productReference = 03871D950F8053B100F24DC9 /* MjoyINT.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		03444B520CD2974E00AAF4B9 /* SunriseCH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03444B5D0CD2974E00AAF4B9 /* Build configuration list for PBXNativeTarget "SunriseCH" */;
+			buildPhases = (
+				03444B530CD2974E00AAF4B9 /* Resources */,
+				03444B560CD2974E00AAF4B9 /* Sources */,
+				03444B5B0CD2974E00AAF4B9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunriseCH;
+			productName = OrangeCH;
+			productReference = 03444B600CD2974E00AAF4B9 /* SunriseCH.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		03444B910CD29E0F00AAF4B9 /* SwisscomXtraZoneCH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03444B9C0CD29E0F00AAF4B9 /* Build configuration list for PBXNativeTarget "SwisscomXtraZoneCH" */;
+			buildPhases = (
+				03444B920CD29E0F00AAF4B9 /* Resources */,
+				03444B950CD29E0F00AAF4B9 /* Sources */,
+				03444B9A0CD29E0F00AAF4B9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwisscomXtraZoneCH;
+			productName = OrangeCH;
+			productReference = 03444B9F0CD29E0F00AAF4B9 /* SwisscomXtraZoneCH.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		034F27190CD29FF60050A78E /* CoopMobileCH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034F27240CD29FF60050A78E /* Build configuration list for PBXNativeTarget "CoopMobileCH" */;
+			buildPhases = (
+				034F271A0CD29FF60050A78E /* Resources */,
+				034F271D0CD29FF60050A78E /* Sources */,
+				034F27220CD29FF60050A78E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoopMobileCH;
+			productName = OrangeCH;
+			productReference = 034F27270CD29FF60050A78E /* CoopMobileCH.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		034F27460CD2A1360050A78E /* PostMailCH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034F27510CD2A1360050A78E /* Build configuration list for PBXNativeTarget "PostMailCH" */;
+			buildPhases = (
+				034F27470CD2A1360050A78E /* Resources */,
+				034F274A0CD2A1360050A78E /* Sources */,
+				034F274F0CD2A1360050A78E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostMailCH;
+			productName = OrangeCH;
+			productReference = 034F27540CD2A1360050A78E /* PostMailCH.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		03577AA40CFB5DB00071370A /* SSSender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03577AA90CFB5DB10071370A /* Build configuration list for PBXNativeTarget "SSSender" */;
+			buildPhases = (
+				03577AA00CFB5DB00071370A /* Headers */,
+				03577AA10CFB5DB00071370A /* Resources */,
+				03577AA20CFB5DB00071370A /* Sources */,
+				03577AA30CFB5DB00071370A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSSender;
+			productName = SSSender;
+			productReference = 03577AA50CFB5DB00071370A /* SSSender.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		036474DD10619F0E002A2AF1 /* EthCH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036474E210619F0F002A2AF1 /* Build configuration list for PBXNativeTarget "EthCH" */;
+			buildPhases = (
+				036474DA10619F0E002A2AF1 /* Resources */,
+				036474DB10619F0E002A2AF1 /* Sources */,
+				036474DC10619F0E002A2AF1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EthCH;
+			productName = EthCH;
+			productReference = 036474DE10619F0E002A2AF1 /* EthCH.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		03AA5FCB0D638DD7003A9758 /* CitycableCH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03AA5FD40D638DD7003A9758 /* Build configuration list for PBXNativeTarget "CitycableCH" */;
+			buildPhases = (
+				03AA5FCC0D638DD7003A9758 /* Resources */,
+				03AA5FCF0D638DD7003A9758 /* Sources */,
+				03AA5FD10D638DD7003A9758 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CitycableCH;
+			productName = OrangeCH;
+			productReference = 03AA5FD70D638DD7003A9758 /* CitycableCH.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		03CA8B500CF0A12D00E3767B /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03CA8B560CF0A12E00E3767B /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				03CA8B4C0CF0A12D00E3767B /* Resources */,
+				03CA8B4D0CF0A12D00E3767B /* Sources */,
+				03CA8B4E0CF0A12D00E3767B /* Frameworks */,
+				03CA8B4F0CF0A12D00E3767B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 03CA8B510CF0A12D00E3767B /* Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8414B2EA0CA3EEA7006703C2 /* Automator action */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8414B2ED0CA3EEA8006703C2 /* Build configuration list for PBXNativeTarget "Automator action" */;
+			buildPhases = (
+				8481AFC80CA7EECA00138931 /* Write svn revision to Info.plist */,
+				8414B2E70CA3EEA7006703C2 /* Resources */,
+				8414B2E80CA3EEA7006703C2 /* Sources */,
+				8414B2E90CA3EEA7006703C2 /* Frameworks */,
+				8414B3B90CA3F18A006703C2 /* Check automator action for problems */,
+				DAC0A7550DAC9233008772B9 /* Sign automator action */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Automator action";
+			productName = "Send SMS";
+			productReference = 8414B2EB0CA3EEA7006703C2 /* Send SMS.action */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D1107260486CEB800E47090 /* SwissSMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "SwissSMS" */;
+			buildPhases = (
+				8481AE2B0CA7E5F100138931 /* Write svn revision to Info.plist */,
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				03577AD50CFB5E600071370A /* Copy Frameworks */,
+				03444AFA0CD294BD00AAF4B9 /* Copy Plugins */,
+				0302F2B00E06363A005D692E /* CopyFiles */,
+				DAC0A7310DAC8E71008772B9 /* Sign SwissSMS */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03577B0F0CFB5E7D0071370A /* PBXTargetDependency */,
+				03CA960C0CF4EB1D00E3767B /* PBXTargetDependency */,
+				84B1D4570CA3F59400CA3207 /* PBXTargetDependency */,
+				DA32D4CB0CF096D200F3F334 /* PBXTargetDependency */,
+				032666660CD1BC45008373B6 /* PBXTargetDependency */,
+				03AA607A0D639C3A003A9758 /* PBXTargetDependency */,
+				032666680CD1BC45008373B6 /* PBXTargetDependency */,
+				034F277E0CD2A2280050A78E /* PBXTargetDependency */,
+				034F27800CD2A2280050A78E /* PBXTargetDependency */,
+				034F27820CD2A2280050A78E /* PBXTargetDependency */,
+				034F27840CD2A2280050A78E /* PBXTargetDependency */,
+				DAA6ED1B0CE8473600FCECAD /* PBXTargetDependency */,
+				DAA6EB2E0CE845A900FCECAD /* PBXTargetDependency */,
+				0302EDCB0E05FBD8005D692E /* PBXTargetDependency */,
+				032DD90E0E56127700D65944 /* PBXTargetDependency */,
+				DACA1D210FAE399500692ED5 /* PBXTargetDependency */,
+				036475901061A0CB002A2AF1 /* PBXTargetDependency */,
+			);
+			name = SwissSMS;
+			productInstallPath = "$(HOME)/Applications";
+			productName = SwissSMS;
+			productReference = 8D1107320486CEB800E47090 /* SwissSMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAA6ECBE0CE846C900FCECAD /* HispeedCH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA6ECC10CE846C900FCECAD /* Build configuration list for PBXNativeTarget "HispeedCH" */;
+			buildPhases = (
+				DAA6ECBB0CE846C900FCECAD /* Resources */,
+				DAA6ECBC0CE846C900FCECAD /* Sources */,
+				DAA6ECBD0CE846C900FCECAD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HispeedCH;
+			productName = HispeedCH;
+			productReference = DAA6ECBF0CE846C900FCECAD /* HispeedCH.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DAE9D5600CF05AE400ABF778 /* Address Book plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE9D5630CF05AE600ABF778 /* Build configuration list for PBXNativeTarget "Address Book plugin" */;
+			buildPhases = (
+				DA32D5A50CF09B8100F3F334 /* Write svn revision to Info.plist */,
+				DAE9D55D0CF05AE400ABF778 /* Resources */,
+				DAE9D55E0CF05AE400ABF778 /* Sources */,
+				DAE9D55F0CF05AE400ABF778 /* Frameworks */,
+				DAC0A7570DAC923E008772B9 /* Sign address book plugin */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Address Book plugin";
+			productName = "Address Book plugin";
+			productReference = DAE9D5610CF05AE400ABF778 /* Send SMS with SwissSMS.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "SwissSMS" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* SwissSMS */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* SwissSMS */,
+				8414B2EA0CA3EEA7006703C2 /* Automator action */,
+				DAE9D5600CF05AE400ABF778 /* Address Book plugin */,
+				03577AA40CFB5DB00071370A /* SSSender */,
+				032665EF0CD1BA23008373B6 /* RomandieCH */,
+				032666230CD1BADD008373B6 /* OrangeCH */,
+				03444B520CD2974E00AAF4B9 /* SunriseCH */,
+				03444B910CD29E0F00AAF4B9 /* SwisscomXtraZoneCH */,
+				034F27190CD29FF60050A78E /* CoopMobileCH */,
+				034F27460CD2A1360050A78E /* PostMailCH */,
+				DAA6ECBE0CE846C900FCECAD /* HispeedCH */,
+				031F235D0CE5D20D00E0A88B /* NetAppelINT */,
+				03CA8B500CF0A12D00E3767B /* Tests */,
+				03AA5FCB0D638DD7003A9758 /* CitycableCH */,
+				0302EDAE0E05FB99005D692E /* MDImporter */,
+				032DD8B20E5611AB00D65944 /* YalloCH */,
+				033B13F10F8029FE00B1CA65 /* MjoyINT */,
+				036474DD10619F0E002A2AF1 /* EthCH */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0302EDAB0E05FB99005D692E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0302F1C80E063232005D692E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031F235E0CE5D20D00E0A88B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031F237A0CE5D25A00E0A88B /* NetAppel.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032665EC0CD1BA23008373B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032667E30CD1FD82008373B6 /* Romandie.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032666200CD1BADD008373B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032667E70CD1FD92008373B6 /* Orange.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032DD8AF0E5611AB00D65944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032DDA170E561F6D00D65944 /* Yallo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033B13EE0F8029FE00B1CA65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033B14160F802A6E00B1CA65 /* Mjoy.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03444B530CD2974E00AAF4B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03444B8F0CD29CA100AAF4B9 /* Sunrise.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03444B920CD29E0F00AAF4B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03444BC70CD29F3900AAF4B9 /* Swisscom Xtra-Zone.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034F271A0CD29FF60050A78E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034F27390CD2A0580050A78E /* Coop Mobile.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034F27470CD2A1360050A78E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034F27710CD2A1FB0050A78E /* PostMail.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03577AA10CFB5DB00071370A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036474DA10619F0E002A2AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0364752810619F78002A2AF1 /* ETH.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AA5FCC0D638DD7003A9758 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AA62CF0D63BF6F003A9758 /* Citycable.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CA8B4C0CF0A12D00E3767B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8414B2E70CA3EEA7006703C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA8E76A0CB7C4B300A64133 /* SwissSMSLarge.tiff in Resources */,
+				8414B3060CA3EF1B006703C2 /* InfoPlist.strings in Resources */,
+				8414B3070CA3EF1B006703C2 /* main.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030A4A6C0CB1B94700921D19 /* Send SMS.action in Resources */,
+				DA32D5160CF097AD00F3F334 /* Send SMS with SwissSMS.bundle in Resources */,
+				03371F8B0BFCD13700DF24AE /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				03CC26AB0BD95C3C00AFD633 /* gpl.txt in Resources */,
+				03CC29B40BDAFE8400AFD633 /* SwissSMS.icns in Resources */,
+				03A9733C0BE15438005912FA /* Credits.html in Resources */,
+				0356AB0C0BFA3B1200D8E144 /* Localizable.strings in Resources */,
+				03B9C23E0BFD074A003708D2 /* SwissSMS Help in Resources */,
+				0339A1400C026E8B0055A2E6 /* Preferences.nib in Resources */,
+				0339A1630C026FBB0055A2E6 /* update.tiff in Resources */,
+				0339A1640C026FBB0055A2E6 /* person.tiff in Resources */,
+				0339A1650C026FBB0055A2E6 /* general.png in Resources */,
+				0339A1660C026FBC0055A2E6 /* network.png in Resources */,
+				03D8B2130C061185004639D6 /* appDefaults.plist in Resources */,
+				03D8B5580C067F94004639D6 /* NewMessage.png in Resources */,
+				03D8B55D0C067FC0004639D6 /* Inspect.png in Resources */,
+				03D8B55E0C067FC0004639D6 /* Delete.png in Resources */,
+				03D8B55F0C067FC1004639D6 /* Flag.png in Resources */,
+				03D8B5F70C06B544004639D6 /* FlaggedHeader.png in Resources */,
+				03D8B5F80C06B544004639D6 /* Flagged.png in Resources */,
+				03441AEF0C1CBF1A00B5740F /* AddressBook.tiff in Resources */,
+				03C1EC0D0E195CE800E53F5F /* SwissSMSDocument.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA6ECBB0CE846C900FCECAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA6ED010CE8471F00FCECAD /* Hispeed.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE9D55D0CF05AE400ABF778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE9D5C80CF0785800ABF778 /* InfoPlist.strings in Resources */,
+				DA02F8890DABE18100542065 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0302F3040E063803005D692E /* Sign code */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Sign code";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "source Scripts/signcode.sh\n";
+		};
+		03CA8B4F0CF0A12D00E3767B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		8414B3B90CA3F18A006703C2 /* Check automator action for problems */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check automator action for problems";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/bin/xcrun amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"";
+		};
+		8481AE2B0CA7E5F100138931 /* Write svn revision to Info.plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.svn/entries",
+				"$(SRCROOT)/English.lproj/.svn/entries",
+				"$(SRCROOT)/English.lproj/MainMenu.nib/.svn/entries",
+				"$(SRCROOT)/English.lproj/Preferences.nib/.svn/entries",
+				"$(SRCROOT)/French.lproj/.svn/entries",
+				"$(SRCROOT)/French.lproj/MainMenu.nib/.svn/entries",
+				"$(SRCROOT)/French.lproj/Preferences.nib/.svn/entries",
+				"$(SRCROOT)/Resources/.svn/entries",
+				"$(SRCROOT)/Resources/SwissSMS Help/.svn/entries",
+				"$(SRCROOT)/Resources/SwissSMS Help/art/.svn/entries",
+				"$(SRCROOT)/SwissSMS.xcodeproj/.svn/entries",
+				"$(SRCROOT)/SwissSMS_DataModel.xcdatamodel/.svn/entries",
+			);
+			name = "Write svn revision to Info.plist";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/revision",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "source Scripts/svnrevision.sh";
+		};
+		8481AFC80CA7EECA00138931 /* Write svn revision to Info.plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Automator action/.svn/entries",
+				"$(SRCROOT)/Automator action/English.lproj/.svn/entries",
+				"$(SRCROOT)/Automator action/English.lproj/main.nib/.svn/entries",
+				"$(SRCROOT)/Automator action/French.lproj/.svn/entries",
+				"$(SRCROOT)/Automator action/French.lproj/main.nib/.svn/entries",
+				"$(SRCROOT)/Automator action/German.lproj/.svn/entries",
+				"$(SRCROOT)/Automator action/German.lproj/main.nib/.svn/entries",
+			);
+			name = "Write svn revision to Info.plist";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/revision",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "source Scripts/svnrevision.sh";
+		};
+		DA32D5A50CF09B8100F3F334 /* Write svn revision to Info.plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Address Book plugin/.svn/entries",
+				"$(SRCROOT)/Address Book plugin/English.lproj/.svn/entries",
+				"$(SRCROOT)/Address Book plugin/French.lproj/.svn/entries",
+				"$(SRCROOT)/Address Book plugin/German.lproj/.svn/entries",
+			);
+			name = "Write svn revision to Info.plist";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/revision",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "source Scripts/svnrevision.sh";
+		};
+		DAC0A7310DAC8E71008772B9 /* Sign SwissSMS */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Sign SwissSMS";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "source Scripts/signcode.sh";
+		};
+		DAC0A7550DAC9233008772B9 /* Sign automator action */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Sign automator action";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "source Scripts/signcode.sh";
+		};
+		DAC0A7570DAC923E008772B9 /* Sign address book plugin */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Sign address book plugin";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "source Scripts/signcode.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0302EDAC0E05FB99005D692E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0302EFAB0E062A94005D692E /* main.m in Sources */,
+				0302EDFB0E05FC81005D692E /* GetMetadataForFile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031F23610CE5D20D00E0A88B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031F237B0CE5D25A00E0A88B /* NetAppelINT.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032665ED0CD1BA23008373B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032667780CD1FC1A008373B6 /* RomandieCH.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032666210CD1BADD008373B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032667410CD1BF95008373B6 /* OrangeCH.m in Sources */,
+				0371768115CF1A2A008C9A61 /* STHTTPRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032DD8B00E5611AB00D65944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032DDA160E561F6D00D65944 /* YalloCH.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033B13EF0F8029FE00B1CA65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033B14170F802A6E00B1CA65 /* MjoyINT.m in Sources */,
+				036F11C70F8035C0009DABFF /* NSURL+SMSSender.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03444B560CD2974E00AAF4B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03444B6B0CD29B5E00AAF4B9 /* SunriseCH.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03444B950CD29E0F00AAF4B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03444BC00CD29F1000AAF4B9 /* SwisscomXtraZoneCH.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034F271D0CD29FF60050A78E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034F27340CD2A03B0050A78E /* CoopMobileCH.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034F274A0CD2A1360050A78E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034F276C0CD2A1DB0050A78E /* PostMailCH.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03577AA20CFB5DB00071370A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03577B3F0CFB5F320071370A /* AbstractSender.m in Sources */,
+				03577B410CFB5F350071370A /* NSString+SMSSender.m in Sources */,
+				03577B420CFB5F360071370A /* NSDictionary+SMSSender.m in Sources */,
+				033B141F0F802C8E00B1CA65 /* NSURL+SMSSender.m in Sources */,
+				037176BF15CF248C008C9A61 /* HTMLForm.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036474DB10619F0E002A2AF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0364752910619F78002A2AF1 /* ETHCH.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03AA5FCF0D638DD7003A9758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03AA62D00D63BF6F003A9758 /* CitycableCH.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CA8B4D0CF0A12D00E3767B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CA8B8F0CF0A4CB00E3767B /* PhoneNumberFormatTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8414B2E80CA3EEA7006703C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8414B3090CA3EF1B006703C2 /* Send SMS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				77C8280E06725ACE000B614F /* SwissSMS_AppDelegate.m in Sources */,
+				770B37ED0679A11B001EADE2 /* SwissSMS_DataModel.xcdatamodel in Sources */,
+				03ABCBE00BC72456003B0344 /* Message.m in Sources */,
+				03ABD3C20BC9903E003B0344 /* ABPerson_SwissSMS.m in Sources */,
+				03ABD5ED0BC9C79E003B0344 /* NSString_SwissSMS.m in Sources */,
+				03085B3F0BEA853E007ADABD /* NSWorkspace_SwissSMS.m in Sources */,
+				03F61CDA0BEF9F9500D0FD7D /* MyPerson.m in Sources */,
+				0339A1380C026E5E0055A2E6 /* PreferencesController.m in Sources */,
+				03D8B5AF0C06B328004639D6 /* FlagImageTransformer.m in Sources */,
+				03D30B000C07DBA6009BE310 /* SwissSMS_AppDelegate+Toolbar.m in Sources */,
+				030A490B0CB1A6EC00921D19 /* ABPerson_SwissSMS_AIM.m in Sources */,
+				033C0E790CBACAE80007CC8D /* SwissSMS_AppDelegate+TokenField.m in Sources */,
+				03767E0D0CBFC59B003833A1 /* SSRecipient.m in Sources */,
+				03AF75580CC40C3300F02DB9 /* SwissSMS_AppDelegate+Export.m in Sources */,
+				0345E2F70CDFE832005C28CE /* KeychainAccess.m in Sources */,
+				03F38D160CFA1B0F00D0C5FF /* NSFileManager_SwissSMS.m in Sources */,
+				DA39F7A90DA8E3F700F50935 /* SwissSMSUpdater.m in Sources */,
+				03C262200E0C0A5B003D8C18 /* NSManagedObjectContext+Metadata.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA6ECBC0CE846C900FCECAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA6ED020CE8471F00FCECAD /* HispeedCH.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE9D55E0CF05AE400ABF778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE9D5CA0CF0785800ABF778 /* SwissSMSABPlugin.m in Sources */,
+				03F38C290CF73ED600D0C5FF /* ABPerson_SwissSMS.m in Sources */,
+				03F38C6E0CF8382C00D0C5FF /* NSWorkspace_SwissSMS.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0302EDCB0E05FBD8005D692E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0302EDAE0E05FB99005D692E /* MDImporter */;
+			targetProxy = 0302EDCA0E05FBD8005D692E /* PBXContainerItemProxy */;
+		};
+		032666660CD1BC45008373B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 032665EF0CD1BA23008373B6 /* RomandieCH */;
+			targetProxy = 032666650CD1BC45008373B6 /* PBXContainerItemProxy */;
+		};
+		032666680CD1BC45008373B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 032666230CD1BADD008373B6 /* OrangeCH */;
+			targetProxy = 032666670CD1BC45008373B6 /* PBXContainerItemProxy */;
+		};
+		032DD90E0E56127700D65944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 032DD8B20E5611AB00D65944 /* YalloCH */;
+			targetProxy = 032DD90D0E56127700D65944 /* PBXContainerItemProxy */;
+		};
+		034F277E0CD2A2280050A78E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03444B520CD2974E00AAF4B9 /* SunriseCH */;
+			targetProxy = 034F277D0CD2A2280050A78E /* PBXContainerItemProxy */;
+		};
+		034F27800CD2A2280050A78E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03444B910CD29E0F00AAF4B9 /* SwisscomXtraZoneCH */;
+			targetProxy = 034F277F0CD2A2280050A78E /* PBXContainerItemProxy */;
+		};
+		034F27820CD2A2280050A78E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 034F27190CD29FF60050A78E /* CoopMobileCH */;
+			targetProxy = 034F27810CD2A2280050A78E /* PBXContainerItemProxy */;
+		};
+		034F27840CD2A2280050A78E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 034F27460CD2A1360050A78E /* PostMailCH */;
+			targetProxy = 034F27830CD2A2280050A78E /* PBXContainerItemProxy */;
+		};
+		03577B0F0CFB5E7D0071370A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03577AA40CFB5DB00071370A /* SSSender */;
+			targetProxy = 03577B0E0CFB5E7D0071370A /* PBXContainerItemProxy */;
+		};
+		036475901061A0CB002A2AF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 036474DD10619F0E002A2AF1 /* EthCH */;
+			targetProxy = 0364758F1061A0CB002A2AF1 /* PBXContainerItemProxy */;
+		};
+		03AA607A0D639C3A003A9758 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03AA5FCB0D638DD7003A9758 /* CitycableCH */;
+			targetProxy = 03AA60790D639C3A003A9758 /* PBXContainerItemProxy */;
+		};
+		03CA960C0CF4EB1D00E3767B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03CA8B500CF0A12D00E3767B /* Tests */;
+			targetProxy = 03CA960B0CF4EB1D00E3767B /* PBXContainerItemProxy */;
+		};
+		84B1D4570CA3F59400CA3207 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8414B2EA0CA3EEA7006703C2 /* Automator action */;
+			targetProxy = 84B1D4560CA3F59400CA3207 /* PBXContainerItemProxy */;
+		};
+		DA32D4CB0CF096D200F3F334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAE9D5600CF05AE400ABF778 /* Address Book plugin */;
+			targetProxy = DA32D4CA0CF096D200F3F334 /* PBXContainerItemProxy */;
+		};
+		DAA6EB2E0CE845A900FCECAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 031F235D0CE5D20D00E0A88B /* NetAppelINT */;
+			targetProxy = DAA6EB2D0CE845A900FCECAD /* PBXContainerItemProxy */;
+		};
+		DAA6ED1B0CE8473600FCECAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAA6ECBE0CE846C900FCECAD /* HispeedCH */;
+			targetProxy = DAA6ED1A0CE8473600FCECAD /* PBXContainerItemProxy */;
+		};
+		DACA1D210FAE399500692ED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 033B13F10F8029FE00B1CA65 /* MjoyINT */;
+			targetProxy = DACA1D200FAE399500692ED5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0302F1C60E063232005D692E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0302F1C70E063232005D692E /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03371F8A0BFCD13700DF24AE /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+				03371F8C0BFCD13C00DF24AE /* French */,
+				03F39FAA0DA1797200BEE4D7 /* German */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		0339A13E0C026E8B0055A2E6 /* Preferences.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0339A13F0C026E8B0055A2E6 /* English */,
+				0339A23E0C027CCE0055A2E6 /* French */,
+				03F39FAB0DA1799E00BEE4D7 /* German */,
+			);
+			name = Preferences.nib;
+			sourceTree = "<group>";
+		};
+		0356AB0B0BFA3B1200D8E144 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0356AB090BFA3B0700D8E144 /* English */,
+				0356AB0D0BFA3B1700D8E144 /* French */,
+				03F39FAD0DA179D300BEE4D7 /* German */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+				03F39FAC0DA179B800BEE4D7 /* German */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8414B2FE0CA3EF1B006703C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8414B2FF0CA3EF1B006703C2 /* English */,
+				DAA8E7D30CB7C94200A64133 /* French */,
+				DAC0A6260DAC21FA008772B9 /* German */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8414B3000CA3EF1B006703C2 /* main.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8414B3010CA3EF1B006703C2 /* English */,
+				DAA8E7D60CB7C95A00A64133 /* French */,
+				DA67A2F10DAD5D3500EB751B /* German */,
+			);
+			name = main.nib;
+			sourceTree = "<group>";
+		};
+		DA02F8870DABE18100542065 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA02F8880DABE18100542065 /* English */,
+				DA02F88B0DABE1AE00542065 /* French */,
+				DA02F88C0DABE1B100542065 /* German */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		DAE9D5C20CF0785800ABF778 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAE9D5C30CF0785800ABF778 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0302EDB10E05FB99005D692E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = MDImporter/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = SwissSMS;
+				WRAPPER_EXTENSION = mdimporter;
+			};
+			name = Debug;
+		};
+		0302EDB20E05FB99005D692E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = MDImporter/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = SwissSMS;
+				WRAPPER_EXTENSION = mdimporter;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		031F236A0CE5D20D00E0A88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/NetAppelINT/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = NetAppelINT;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		031F236B0CE5D20D00E0A88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/NetAppelINT/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = NetAppelINT;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		032665F30CD1BA24008373B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/RomandieCH/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = RomandieCH;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		032665F40CD1BA24008373B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/RomandieCH/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = RomandieCH;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		032666270CD1BADD008373B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/OrangeCH/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = OrangeCH;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		032666280CD1BADD008373B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/OrangeCH/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = OrangeCH;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		032DD8B50E5611AB00D65944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/YalloCH/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = YalloCH;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		032DD8B60E5611AB00D65944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/YalloCH/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = YalloCH;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		033B13F40F8029FF00B1CA65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/MjoyINT/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = MjoyINT;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		033B13F50F8029FF00B1CA65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/MjoyINT/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = MjoyINT;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		03444B5E0CD2974E00AAF4B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/SunriseCH/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SunriseCH;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		03444B5F0CD2974E00AAF4B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/SunriseCH/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SunriseCH;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		03444B9D0CD29E0F00AAF4B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/SwisscomXtraZoneCH/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SwisscomXtraZoneCH;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		03444B9E0CD29E0F00AAF4B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/SwisscomXtraZoneCH/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SwisscomXtraZoneCH;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		034F27250CD29FF60050A78E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/CoopMobileCH/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CoopMobileCH;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		034F27260CD29FF60050A78E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/CoopMobileCH/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CoopMobileCH;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		034F27520CD2A1360050A78E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/PostMailCH/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = PostMailCH;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		034F27530CD2A1360050A78E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/PostMailCH/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = PostMailCH;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		03577AA70CFB5DB10071370A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/Frameworks\"";
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "SSSender-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = SSSender;
+			};
+			name = Debug;
+		};
+		03577AA80CFB5DB10071370A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/Frameworks\"";
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "SSSender-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PRODUCT_NAME = SSSender;
+			};
+			name = Release;
+		};
+		036474E010619F0F002A2AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/ETHCH/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = EthCH;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		036474E110619F0F002A2AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/ETHCH/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = EthCH;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		03AA5FD50D638DD7003A9758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/CitycableCH/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CitycableCH;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		03AA5FD60D638DD7003A9758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/CitycableCH/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CitycableCH;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		03CA8B540CF0A12E00E3767B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Tests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Tests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		03CA8B550CF0A12E00E3767B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Tests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Tests;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		26FC0A850875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/Frameworks\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = SwissSMS;
+				SDKROOT = macosx10.7;
+				VERSIONING_SYSTEM = "apple-generic";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26FC0A860875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/Frameworks\"";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = SwissSMS;
+				SDKROOT = macosx10.7;
+				VERSIONING_SYSTEM = "apple-generic";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		26FC0A890875C7B200E6366F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_PEDANTIC = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.7;
+				SHORT_VERSION_STRING = 1.9.12;
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Debug;
+		};
+		26FC0A8A0875C7B200E6366F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = NO;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				SDKROOT = macosx10.7;
+				SHORT_VERSION_STRING = 1.9.12;
+			};
+			name = Release;
+		};
+		8414B2EE0CA3EEA8006703C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/Frameworks\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Automator action/Send SMS_Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Automator action/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				PREBINDING = NO;
+				PRODUCT_NAME = "Send SMS";
+				WRAPPER_EXTENSION = action;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		8414B2EF0CA3EEA8006703C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/Frameworks\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Automator action/Send SMS_Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Automator action/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				PREBINDING = NO;
+				PRODUCT_NAME = "Send SMS";
+				WRAPPER_EXTENSION = action;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		DAA6ECC20CE846C900FCECAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/HispeedCH/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = HispeedCH;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		DAA6ECC30CE846C900FCECAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = Plugins/HispeedCH/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = HispeedCH;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		DAE9D5640CF05AE600ABF778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/Frameworks\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Address Book plugin/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Send SMS with SwissSMS";
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		DAE9D5650CF05AE600ABF778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/Frameworks\"";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "Address Book plugin/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Send SMS with SwissSMS";
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0302EDB30E05FB99005D692E /* Build configuration list for PBXNativeTarget "MDImporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0302EDB10E05FB99005D692E /* Debug */,
+				0302EDB20E05FB99005D692E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		031F23690CE5D20D00E0A88B /* Build configuration list for PBXNativeTarget "NetAppelINT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031F236A0CE5D20D00E0A88B /* Debug */,
+				031F236B0CE5D20D00E0A88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		032665F20CD1BA24008373B6 /* Build configuration list for PBXNativeTarget "RomandieCH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032665F30CD1BA24008373B6 /* Debug */,
+				032665F40CD1BA24008373B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		032666260CD1BADD008373B6 /* Build configuration list for PBXNativeTarget "OrangeCH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032666270CD1BADD008373B6 /* Debug */,
+				032666280CD1BADD008373B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		032DD8B70E5611AB00D65944 /* Build configuration list for PBXNativeTarget "YalloCH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032DD8B50E5611AB00D65944 /* Debug */,
+				032DD8B60E5611AB00D65944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		033B13F60F8029FF00B1CA65 /* Build configuration list for PBXNativeTarget "MjoyINT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033B13F40F8029FF00B1CA65 /* Debug */,
+				033B13F50F8029FF00B1CA65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		03444B5D0CD2974E00AAF4B9 /* Build configuration list for PBXNativeTarget "SunriseCH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03444B5E0CD2974E00AAF4B9 /* Debug */,
+				03444B5F0CD2974E00AAF4B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		03444B9C0CD29E0F00AAF4B9 /* Build configuration list for PBXNativeTarget "SwisscomXtraZoneCH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03444B9D0CD29E0F00AAF4B9 /* Debug */,
+				03444B9E0CD29E0F00AAF4B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		034F27240CD29FF60050A78E /* Build configuration list for PBXNativeTarget "CoopMobileCH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034F27250CD29FF60050A78E /* Debug */,
+				034F27260CD29FF60050A78E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		034F27510CD2A1360050A78E /* Build configuration list for PBXNativeTarget "PostMailCH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034F27520CD2A1360050A78E /* Debug */,
+				034F27530CD2A1360050A78E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		03577AA90CFB5DB10071370A /* Build configuration list for PBXNativeTarget "SSSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03577AA70CFB5DB10071370A /* Debug */,
+				03577AA80CFB5DB10071370A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		036474E210619F0F002A2AF1 /* Build configuration list for PBXNativeTarget "EthCH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036474E010619F0F002A2AF1 /* Debug */,
+				036474E110619F0F002A2AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		03AA5FD40D638DD7003A9758 /* Build configuration list for PBXNativeTarget "CitycableCH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03AA5FD50D638DD7003A9758 /* Debug */,
+				03AA5FD60D638DD7003A9758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		03CA8B560CF0A12E00E3767B /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CA8B540CF0A12E00E3767B /* Debug */,
+				03CA8B550CF0A12E00E3767B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		26FC0A840875C7B200E6366F /* Build configuration list for PBXNativeTarget "SwissSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A850875C7B200E6366F /* Debug */,
+				26FC0A860875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "SwissSMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FC0A890875C7B200E6366F /* Debug */,
+				26FC0A8A0875C7B200E6366F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8414B2ED0CA3EEA8006703C2 /* Build configuration list for PBXNativeTarget "Automator action" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8414B2EE0CA3EEA8006703C2 /* Debug */,
+				8414B2EF0CA3EEA8006703C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DAA6ECC10CE846C900FCECAD /* Build configuration list for PBXNativeTarget "HispeedCH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA6ECC20CE846C900FCECAD /* Debug */,
+				DAA6ECC30CE846C900FCECAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DAE9D5630CF05AE600ABF778 /* Build configuration list for PBXNativeTarget "Address Book plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE9D5640CF05AE600ABF778 /* Debug */,
+				DAE9D5650CF05AE600ABF778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

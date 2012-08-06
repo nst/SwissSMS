@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>swisssms</string>
+			</array>
+			<key>CFBundleTypeIconFile</key>
+			<string>SwissSMSDocument.icns</string>
+			<key>CFBundleTypeName</key>
+			<string>SwissSMS Message</string>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>ch.seriot.swisssms</string>
+			</array>
+			<key>LSTypeIsPackage</key>
+			<false/>
+			<key>NSPersistentStoreTypeKey</key>
+			<string>XML</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>SwissSMS Help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>SwissSMS Help</string>
+	<key>CFBundleIconFile</key>
+	<string>SwissSMS</string>
+	<key>CFBundleIdentifier</key>
+	<string>ch.seriot.SwissSMS</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>${SHORT_VERSION_STRING}</string>
+	<key>CFBundleSignature</key>
+	<string>SwSm</string>
+	<key>CFBundleVersion</key>
+	<string>0</string>
+	<key>FeedbackEmail</key>
+	<string>swisssms@seriot.ch</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>SUFeedURL</key>
+	<string>http://swisssms.googlecode.com/svn/trunk/appcast.xml</string>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>SwissSMS Message</string>
+			<key>UTTypeIdentifier</key>
+			<string>ch.seriot.swisssms</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<string>swisssms</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

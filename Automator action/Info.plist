@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMAccepts</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Optional</key>
+		<false/>
+		<key>Types</key>
+		<array>
+			<string>com.apple.addressbook.item-object</string>
+			<string>com.apple.addressbook.person-object</string>
+			<string>com.apple.addressbook.group-object</string>
+		</array>
+	</dict>
+	<key>AMApplication</key>
+	<string>SwissSMS</string>
+	<key>AMCanShowSelectedItemsWhenRun</key>
+	<true/>
+	<key>AMCanShowWhenRun</key>
+	<true/>
+	<key>AMCategory</key>
+	<string>AMCategoryInternet</string>
+	<key>AMDefaultParameters</key>
+	<dict>
+		<key>message</key>
+		<string/>
+	</dict>
+	<key>AMDescription</key>
+	<dict>
+		<key>AMDNote</key>
+		<string>The SMS will be sent through the network you have chosen in SwissSMS preferences.</string>
+		<key>AMDRelatedActions</key>
+		<string>com.apple.Automator.GetSpecifiedAddressBookItems</string>
+		<key>AMDSummary</key>
+		<string>This action sends a sms to the person(s) and/or group(s) passed from the previous action.</string>
+	</dict>
+	<key>AMIconName</key>
+	<string>SwissSMS</string>
+	<key>AMKeywords</key>
+	<array>
+		<string>Send</string>
+		<string>SMS</string>
+	</array>
+	<key>AMName</key>
+	<string>Send SMS</string>
+	<key>AMProvides</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Types</key>
+		<array>
+			<string>com.apple.applescript.object</string>
+		</array>
+	</dict>
+	<key>AMRequiredResources</key>
+	<array/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>ch.seriot.SwissSMS.amaction.sendsms</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>${SHORT_VERSION_STRING}</string>
+	<key>CFBundleSignature</key>
+	<string>SwSm</string>
+	<key>CFBundleVersion</key>
+	<string>0</string>
+	<key>NSPrincipalClass</key>
+	<string>Send_SMS</string>
+</dict>
+</plist>

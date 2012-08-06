@@ -1,0 +1,145 @@
+/* No comment provided by engineer. */
+"Backup your data!" = "Sichere deine Daten!";
+
+/* No comment provided by engineer. */
+"Login..." = "Einloggen...";
+
+/* No comment provided by engineer. */
+"Could not save changes while quitting. Quit anyway?" = "Änderungen konnten beim Beenden nicht gespeichert werden. Trotzdem beenden?";
+
+/* No comment provided by engineer. */
+"Quit anyway" = "Trotzdem schliessen?";
+
+/* No comment provided by engineer. */
+"BluePhoneElite SMS files not found" = "Die BluePhoneElite SMS Dateien wurden nicht gefunden";
+
+/* No comment provided by engineer. */
+"Cancel" = "Abbrechen";
+
+/* No comment provided by engineer. */
+"sending" = "Nachricht";
+
+/* No comment provided by engineer. */
+"sendings" = "Nachrichten";
+
+/* No comment provided by engineer. */
+"character" = "Buchstabe";
+
+/* No comment provided by engineer. */
+"characters" = "Buchstaben";
+
+/* No comment provided by engineer. */
+"Export done!" = "Exportiert!";
+
+/* No comment provided by engineer. */
+"Export error :-(" = "Fehler beim Exporiteren :-(";
+
+/* No comment provided by engineer. */
+"Keychain error :-(" = "Fehler: Schlüsselbund :-(";
+
+/* No comment provided by engineer. */
+"Service unavailable error :-(" = "Fehler: der Service ist nicht erreichbar :-(";
+
+/* No comment provided by engineer. */
+"Login error :-(" = "Fehler beim Einloggen :-(";
+
+/* No comment provided by engineer. */
+"message" = "Nachricht";
+
+/* No comment provided by engineer. */
+"Message sent!" = "Nachricht gesendet!";
+
+/* No comment provided by engineer. */
+"Please enter your user name and password for \"%@\" (%@)" = "Bitte gib das Passwort für \"%1$@\" (%2$@) ein";
+
+/* No comment provided by engineer. */
+"messages" = "Nachrichtenen";
+
+/* No comment provided by engineer. */
+"Sending error :-(" = "Fehler beim Senden :-(";
+
+/* No comment provided by engineer. */
+"Network error :-(" = "Netzwerkfehler :-(";
+
+/* No comment provided by engineer. */
+"Internal plugin error :-(" = "Schwerer Pluginfehler :-(";
+
+/* No comment provided by engineer. */
+"Sending..." = "Senden...";
+
+/* No comment provided by engineer. */
+"SwissSMS_Messages" = "SwissSMS_Nachricht";
+
+/* No comment provided by engineer. */
+"SwissSMS version %@ is available" = "Die Version %@ von SwissSMS ist verfügbar";
+
+/* No comment provided by engineer. */
+"What do you want to do?" = "Was wollen Sie tun?";
+
+/* No comment provided by engineer. */
+"Download now" = "Jetzt herunterladen";
+
+/* No comment provided by engineer. */
+"Open SwissSMS website" = "SwissSMS-Webseite öffnen";
+
+/* No comment provided by engineer. */
+"Ignore and Continue" = "Ignorieren und weiterfahren";
+
+/* prefs > toolbar */
+"General" = "Allgemein";
+
+/* prefs > toolbar */
+"Network" = "Netzwerk";
+
+/* prefs > toolbar */
+"Update" = "Update";
+
+/* No comment provided by engineer. */
+"You are up to date!" = "Sie sind auf dem neusten Stand!";
+
+/* No comment provided by engineer. */
+"SwissSMS %@ is the latest version available." = "SwissSMS %@ ist die letzte verfügbare Version.";
+
+/* No comment provided by engineer. */
+"BluePhoneElite is running, export will stop it." = "BluePhoneElite läuft, der Export wurde gestopt.";
+
+/* Toolbar item */
+"New message" = "Neue Nachricht";
+
+/* Toolbar customize */
+"Create new message" = "Neue Nachricht erstellen";
+
+/* Toolbar tooltip */
+"Creates a new message" = "Eine neue Nachricht erstellen";
+
+/* Toolbar item */
+"Delete" = "Löschen";
+
+/* Toolbar customize */
+"Delete selected messages" = "Ausgewählte Nachricht löschen";
+
+/* Toolbar tooltip */
+"Deletes the selected messages" = "Ausgewählte Nachricht löschen";
+
+/* Toolbar customize
+   Toolbar item */
+"Flag" = "Markieren";
+
+/* Toolbar tooltip */
+"Flag selected messages" = "Ausgewählte Nachrichtenen markieren";
+
+/* Toolbar item */
+"Inspector" = "Inspektor";
+
+/* Toolbar customize */
+"Message Inspector" = "Nachrichten Inspektor";
+
+/* Toolbar tooltip */
+"Shows/hides the message inspector" = "Nachrichten Inspektor ein-/ausblenden";
+
+/* Toolbar customize
+   Toolbar item */
+"Search" = "Suchen";
+
+/* Toolbar tooltip */
+"Search your messages" = "Nachrichten durchsuchen";

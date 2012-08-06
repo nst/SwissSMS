@@ -1,0 +1,157 @@
+﻿/* No comment provided by engineer. */
+"Backup your data!" = "Sauvegardez vos données !";
+
+/* No comment provided by engineer. */
+"Login..." = "Authentification...";
+
+/* No comment provided by engineer. */
+"Could not save changes while quitting. Quit anyway?" = "Impossible d'enregistrer les changement avant de quitter. Quitter quand même ?";
+
+/* No comment provided by engineer. */
+"Quit anyway" = "Quitter quand même ?";
+
+/* No comment provided by engineer. */
+"BluePhoneElite SMS files not found" = "Les fichiers SMS de BluePhoneElite sont introuvables";
+
+/* No comment provided by engineer. */
+"Cancel" = "Annuler";
+
+/* No comment provided by engineer. */
+"sending" = "envoi";
+
+/* No comment provided by engineer. */
+"sendings" = "envois";
+
+/* No comment provided by engineer. */
+"character" = "caractère";
+
+/* No comment provided by engineer. */
+"characters" = "caractères";
+
+/* No comment provided by engineer. */
+"Export done!" = "Exportation terminée !";
+
+/* No comment provided by engineer. */
+"Export error :-(" = "Erreur lors de l'exportation :-(";
+
+/* No comment provided by engineer. */
+"Keychain error :-(" = "Erreur lors de la lecture du trousseau d’accès :-(";
+
+/* No comment provided by engineer. */
+"Service unavailable error :-(" = "Erreur : service momentanément indisponible :-(";
+
+/* No comment provided by engineer. */
+"Login error :-(" = "Erreur lors de l'authentification :-(";
+
+/* No comment provided by engineer. */
+"No more credits :-(" = "Crédits insuffisants :-(";
+
+/* No comment provided by engineer. */
+"message" = "message";
+
+/* No comment provided by engineer. */
+"Message sent!" = "Message envoyé !";
+
+/* No comment provided by engineer. */
+"Please enter your user name and password for \"%@\" (%@)" = "Veuillez entrer votre nom d'utilisateur et votre mot de passe pour \"%1$@\" (%2$@)";
+
+/* No comment provided by engineer. */
+"messages" = "messages";
+
+/* No comment provided by engineer. */
+"Sending error :-(" = "Erreur lors de l'envoi :-(";
+
+/* No comment provided by engineer. */
+"Network error :-(" = "Erreur de réseau :-(";
+
+/* No comment provided by engineer. */
+"Internal plugin error :-(" = "Erreur interne du plugin :-(";
+
+/* No comment provided by engineer. */
+"Sending..." = "Envoi...";
+
+/* No comment provided by engineer. */
+"SwissSMS_Messages" = "Messages_SwissSMS";
+
+/* No comment provided by engineer. */
+"SwissSMS version %@ is available" = "La version %@ de SwissSMS est disponible";
+
+/* No comment provided by engineer. */
+"What do you want to do?" = "Que voulez-vous faire ?";
+
+/* No comment provided by engineer. */
+"Download now" = "Télécharger";
+
+/* No comment provided by engineer. */
+"Open SwissSMS website" = "Ouvrir la page web";
+
+/* No comment provided by engineer. */
+"Ignore and Continue" = "Ignorer";
+
+/* prefs > toolbar */
+"General" = "Général";
+
+/* prefs > toolbar */
+"Network" = "Opérateurs";
+
+/* prefs > toolbar */
+"Update" = "Mises-à-jour";
+
+/* No comment provided by engineer. */
+"You are up to date!" = "Vous êtes à jour !";
+
+/* No comment provided by engineer. */
+"SwissSMS %@ is the latest version available." = "SwissSMS %@ est la dernière version disponible.";
+
+/* No comment provided by engineer. */
+"BluePhoneElite is running, export will stop it." = "BluePhoneElite est ouvert, SwissSMS va le fermer.";
+
+/* Toolbar item */
+"New message" = "Nouveau message";
+
+/* Toolbar customize */
+"Create new message" = "Rédiger un nouveau message";
+
+/* Toolbar tooltip */
+"Creates a new message" = "Rédige un nouveau message";
+
+/* Toolbar item */
+"Delete" = "Supprimer";
+
+/* Toolbar customize */
+"Delete selected messages" = "Supprimer les messages sélectionnés";
+
+/* Toolbar tooltip */
+"Deletes the selected messages" = "Supprime les messages sélectionnés";
+
+/* Toolbar customize
+   Toolbar item */
+"Flag" = "Marquer";
+
+/* Toolbar tooltip */
+"Flag selected messages" = "Marque les messages sélectionnés";
+
+/* Toolbar item */
+"Inspector" = "Inspecteur";
+
+/* Toolbar customize */
+"Message Inspector" = "Inspecteur de messages";
+
+/* Toolbar tooltip */
+"Shows/hides the message inspector" = "Affiche/masque l'inspecteur de messages";
+
+/* Toolbar customize
+   Toolbar item */
+"Search" = "Rechercher";
+
+/* Toolbar tooltip */
+"Search your messages" = "Recherche dans vos messages";
+
+/* Toolbar item */
+"Sender" = "Service";
+
+/* Toolbar customize */
+"Choose the SMS service" = "Choisir le service d'envoi de SMS";
+
+/* Toolbar tooltip */
+"SMS service" = "Service d'envoi SMS";

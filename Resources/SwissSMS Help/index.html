@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+<head>
+   <title>
+   SwissSMS Help
+   </title>
+	<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+	<meta name="AppleTitle" content="SwissSMS Help">
+	<meta name="AppleFont" content="Helvetica,Arial">
+	<meta name="AppleSearchResultsFont" content="Geneva,Arial">
+	<meta name="AppleIcon" content="./art/iconhelpcenter.png">
+    <style type="text/css">
+        body { color: #000; background-color: #fff; }
+        a { color: #00f; font-family: Lucida Grande, Arial, sans-serif; text-decoration: none }
+        h1 { color: #000; font-size: 18pt; font-family: Lucida Grande, Arial, sans-serif; font-weight: 500; }
+        h2 { color: #000; font-size: 16pt; font-family: "Lucida Grande", Arial, sans-serif; font-weight: 300; }
+        h3 { color: #000; font-size: 14pt; font-family: "Lucida Grande", Arial, sans-serif; font-weight: 300; }
+        h4 { color: #000; font-size: 12pt; font-family: "Lucida Grande", Arial, sans-serif; font-weight: bold;}
+        p { font-size: 10pt; font-family: Lucida Grande, Arial, sans-serif; }
+        li { font-size: 10pt; font-family: Lucida Grande, Arial, sans-serif; }
+        a:hover { text-decoration: underline }
+    </style>
+</head>
+
+<h1>SwissSMS</h1>
+<p><em>Send, store and export your SMS</em></p>
+
+
+<TABLE>
+<TR>
+    <TD><img src="art/iconhelpcenter.png"></img></TD>
+    <TD><ul>
+        <li><a href="#operator">Choose an SMS Operator (optional)</a><br/></li>
+        <li><a href="#send">Send a Message</a><br/></li>
+        <li><a href="#manage">Manage Your Messages</a><br /></li>
+        <li><a href="#keychain">Accounts Information Storage</a><br /></li>
+        <li><a href="#command_line">Command-line Mode</a><br /></li>
+        <li><a href="#automator_action">Automator Action</a><br /></li>
+        <li><a href="#addressbook_plugin">Adress Book Plugin</a><br /></li>    
+        <li><a href="#questions_troubleshooting">Questions and Troubleshooting</a></li>
+        </ul></TD>
+</TABLE>
+
+<hr>
+
+<h4 id="operator">Choose an SMS Operator (<em>optional</em>)</h4>
+
+<ul>
+<li>You can choose your operator in SwissSMS menu > Preferences > Operators. By default, SwissSMS uses <a href="http://www.romandie.com/mobile/">Romandie.com</a>, a free SMS service. You can also use <a href="https://www.orange.ch/myorange/sms">Orange</a>, <a href="http://mymobile.sunrise.ch/portal/res/guest?paf_dm=full&amp;paf_gear_id=100001&amp;_DARGS=/portal/sunrise/login/html/LargeLogin.jsp">Sunrise</a>, <a href="https://www.postmail.ch/fr/index_pm/pm_privatkunden/pm-member-services/pm-organizer.htm">PostMail</a>, <a href="http://www.swisscom-mobile.ch/scm/prv_xtra-zone-fr.aspx">Swisscom Xtra-Zone</a>, <a href="http://www.coop.ch/coopmobile/sms.cfm">Coop Mobile</a>, <a href="https://your.hispeed.ch/fr/apps/messenger/">Hispeed</a> or <a href="http://www.netappel.fr/fr/sms.html">NetAppel</a>. The login and passwords you have to use are the same that the ones you would use on these pages.</li>
+<br />
+<li>
+Before SwissSMS 1.8, you could only use plugins that did ship with the application, and they were all for Swiss providers. Since version 1.8, SwissSMS uses plugins, included international ones. Some of them might be included in the application in the future, or provided by independant developers.
+</li>
+</ul>
+<p></p>
+<hr>
+
+<h4 id="send">Send a Message</h4>
+
+<ol>
+<li>Choose one or several recipients</li>
+<p>The recipients field lets you choose one or more persons from your AddressBook. In order to select one, you can use scroll down and pick up your contact, or type the first letters of its name and let SwissSMS complete your typing. Each plugin sets the number format it uses. Therefore, the menu contains only the persons whose number suits the current plugin. You can also type a "free" mobile phone number that does not belong to someone in your AddressBook.</p>
+
+<p>If you have set a photo to your AddressBook contact, il will appear left to the message text field. Also, if AddressBook knows your contact's AIM screenName and that your iChat is connected to AIM, your contact' status will appear as a collored bullet, right to her or his phone number. If you prefer chatting with your contact rather than texting, just click on the bullet and your message will appear in iChat.</p>
+
+<li>Type your message</li>
+<p>Your message can contain as many characters as you want. If it exceeds what is allowed by your operator web site, SwissSMS will cut the message into slices. The slices will be numbered and sent one after the other. A status line displays always displays how many messages will be sent.</p>
+
+<li>Send your message</li>
+<p>When the recipient field and the message field are filled, the "Send" button becomes active. Click on it to send your message. The message is sent in two steps: login and sending. The progress bar shows you the login and sending status. Once you have hit "Send" (or command-return or enter), you can't cancel the sending. If you really did a mistake, quit SwissSMS. After the message was successfully sent, the message goes in the sent messages database, display in the lower part of the window.</p>
+</ol>
+
+<hr>
+
+<h4>Manage Your Messages</h4>
+
+<ul>
+<li>Inspect your messages</li>
+<p>To read the messages you have sent, clic on a message and choose "Show Messages Inspector" (or command-I) in the "Messages" menu. This will display a window with the message details, as well as your contact AddressBook image and her or his AIM status. You can click on the AIM status to start an iChat conversation with her or him. You can also print the message window if you need a proof :=).</p>
+
+<li>Export your messages</li>
+<p>Your messages are not jailed in SwissSMS! There are two ways to export them:</p>
+
+<ol>
+<li>export to CSV</li>
+<p>Select "Export to CSV..." in the "Messages" menu. This will save your messages in a file separated by tabulations. You can then open this file in Microsoft Excel or import it in a database.</p>
+
+<li>export to BluePhoneElite</li>
+<p><a href="http://mirasoftware.com/BPE/">BluePhoneElite</a> is an excellent commercial software managing calls and SMS of your Bluetooth cell phone. If BluePhoneElite is installed, the menu "Messages" > "Export to BluePhoneElite..." is enabled and lets you export your messages in BluePhoneElite. This export functionality only works with BluePhoneElite 1, not 2.</p>
+</ol>
+
+<li>Remove one or more messages</li>
+<p>Remove the selected messages with the "Remove" button. This button removes the selected messages and saves.</p>
+
+</ul>
+
+<hr>
+
+<h4 id="keychain">Accounts Information Storage</h4>
+
+<ul>
+<li>
+    <p>Since version 1.7, SwissSMS stores all your logins and passwords in the keychain. If you have not yet entered your account information, you will be prompted just before sending an SMS. Check the <em>Remember this password in my keychain</em> option if you don't want to enter your account information each time you send an SMS.</p>
+</li>
+
+<li>
+    <p>Account information in the keychain is shared among applications. It means that if you already entered your login ans password for a network operator in Safari or Camino for example, SwissSMS will be able to use them and vice versa. All you need to do is click the <em>Always Allow</em> button when you are prompted to confirm access to keychain.</p>
+</li>
+
+<li>
+    <p>If you misentered your login or your password, you can change it in the keychain using the <em>Keychain Access</em> utility which is located inside the <tt>/Applications/Utilities</tt> folder. As a shortcut, you can use the "Open Keychain..." button in the Preferences.</p>
+</li>
+</ul>
+
+<hr>
+
+<h4 id="command_line">Command-line Mode</h4>
+
+<ul>
+<li>
+<p>
+You can use SwissSMS in command-line mode. It means you can send SMS from your own scripts. Just call <tt>SwissSMS.app/Contents/MacOS/SwissSMS</tt> this way :
+
+<p>
+<tt>SwissSMS -r 0791234567 &lt; message.txt</tt><br />
+<tt>SwissSMS -r "Steve McQueen" &lt; message.txt</tt><br />
+<tt>SwissSMS -s OrangeCH -r 0791234567 -l myLogin -p myPassword &lt; message.txt</tt>
+</p>
+</li>
+
+<p>Please note that you can use the SwissSMS preferences, or pass the service, the login and the password as arguments. The message is given through <tt>stdin</tt>.</p>
+
+</ul>
+
+<hr>
+
+<h4 id="automator_action">Automator Action</h4>
+
+<ul>
+<li><p>SwissSMS installs the Automator Action <tt>~/Library/Automator/Send SMS.action</tt>. You can send messages to an AddressBook person output from another action. The Automator Action is installed or updated if needed at SwissSMS launch.</p>
+</li>
+</ul>
+
+<hr>
+
+<h4 id="addressbook_plugin">Address Book Plugin</h4>
+
+<ul>
+<li><p>SwissSMS installs the Automator Action <tt>~/Library/Address Book Plug-Ins/Send SMS with SwissSMS.bundle</tt>. While in AdressBook, you can clic on a person's mobile phone and choose in the popup menu : "Send message with SwissSMS". This will open a set SwissSMS ready, you just have to type the message and click "Send". The Address Book plugin is installed or updated if needed at SwissSMS launch.</p>
+</ul>
+
+<hr>
+
+<h4 id="questions_troubleshooting">Questions and Troubleshooting</h4>
+
+<ul>
+<li>
+<p>For bug reports and feature requests, use the <a href="http://code.google.com/p/swisssms/issues/list">issue tracker</a>. For the rest, do not hesitate to contact me: <a href="http://seriot.ch/contact.php">http://seriot.ch/contact.php</a> or <a href="mailto:swisssms@seriot.ch">swisssms@seriot.ch</a>.</p>
+</li>
+
+<li>
+<p>Don't forget that SwissSMS is an opensource software and that you can modify it as you like. It would be especially nice and useful if you, Cocoa developers, could add support for your own SMS operators (Bluewin, anyone?). It's easy! See <a href="http://code.google.com/p/swisssms/source">the sources</a>. There is a <a href="http://swisssms.googlecode.com/svn/trunk/PluginTemplate/">plugin template</a> with a <a href="http://swisssms.googlecode.com/svn/trunk/PluginTemplate/README.txt">readme</a>. Please <a href="mailto:swisssms@seriot.ch">drop me a line</a> if you write a plugin or if you need some help. I'll be happy to add your plugin to SwissSMS or link it from the website.
+</li>
+</ul>
+
+<p>Thank you.</p>
+
+<p><a href="http://seriot.ch">Nicolas Seriot</a> and <a href="http://0xced.blogspot.com/">Cédric Luthi</a>, SwissSMS 1.8.3, November 27th, 2007</p>
+
+</html>
