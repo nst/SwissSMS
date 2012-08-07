@@ -3,7 +3,7 @@ SwissSMS
 
 `Starting from https://code.google.com/p/swisssms/ r509.`
 
-SwissSMS is a Mac OS X front-end to SMS operators services.
+SwissSMS is a **legacy** Mac OS X front-end to SMS operators services.
 
 It stores your outgoing messages and can export them too.
 
