@@ -17,4 +17,6 @@ SwissSMS is tightly integrated with Mac OS X and features:
 * a Spotlight importer
 * a command-line mode (think sending sms from your scripts)
 
+Nightly build: [http://seriot.ch/temp/SwissSMS.app.zip](http://seriot.ch/temp/SwissSMS.app.zip)
+
 ![SwissSMS](https://raw.github.com/nst/SwissSMS/master/swiss_sms_screenshot_small.png)

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 45;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -493,7 +493,7 @@
 		03C2621E0E0C0A5B003D8C18 /* NSManagedObjectContext+Metadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+Metadata.h"; sourceTree = "<group>"; };
 		03C2621F0E0C0A5B003D8C18 /* NSManagedObjectContext+Metadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+Metadata.m"; sourceTree = "<group>"; };
 		03CA8B510CF0A12D00E3767B /* Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		03CA8B5F0CF0A29900E3767B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = /System/Library/Frameworks/SenTestingKit.framework; sourceTree = "<absolute>"; };
+		03CA8B5F0CF0A29900E3767B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		03CA8B8D0CF0A4CB00E3767B /* PhoneNumberFormatTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumberFormatTest.h; sourceTree = "<group>"; };
 		03CA8B8E0CF0A4CB00E3767B /* PhoneNumberFormatTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberFormatTest.m; sourceTree = "<group>"; };
 		03CC26AA0BD95C3C00AFD633 /* gpl.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = gpl.txt; path = Resources/gpl.txt; sourceTree = "<group>"; };
@@ -3101,12 +3101,14 @@
 		26FC0A890875C7B200E6366F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_PEDANTIC = NO;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx10.7;
 				SHORT_VERSION_STRING = 1.9.12;
 				WARNING_CFLAGS = "-Wall";
@@ -3116,6 +3118,7 @@
 		26FC0A8A0875C7B200E6366F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -3125,6 +3128,7 @@
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LINK_WITH_STANDARD_LIBRARIES = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx10.7;
 				SHORT_VERSION_STRING = 1.9.12;
 			};
